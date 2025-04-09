@@ -1,4 +1,5 @@
---nolint! DeprecatedApi
+--!nonstrict
+--!nolint DeprecatedApi
 --MADE BY OneLegend
 -- Change your name to yours (change lanox_pogi with your name)
 -- Script may work for backdoors with a RemoteEvent backdoor executor (lalol, etc)
