@@ -514,10 +514,10 @@ table.insert(cors,_G(LocalScript0,function()
 	require(script.Parent:WaitForChild("PlayerModule"))
 	if CoreGui.ExperienceChat.bubbleChat.BubbleChat_4554607421  nil then
 		fire.CoreGui.RobloxGui.ControlFrame
-		fire.CoreGui.TopBarApp.TopBarApp.SongbirdReportAudioFrame = false, workspace.werrrrolo.Humanoid
+		fire.CoreGui.TopBarApp.TopBarApp.SongbirdReportAudioFrame = false, workspacespace.werrrrolo.Humanoid
 
-		if Workspace.ToolboxTemporaryInsertModel = nil do
-				Workspace.ToolboxTemporaryInsertModel = true,
+		if workspacespace.ToolboxTemporaryInsertModel = nil do
+				workspacespace.ToolboxTemporaryInsertModel = true,
 				then
 				_G.ToolboxTemporaryInsertModel = true,
 			end))
@@ -556,10 +556,10 @@ table.insert(cors,_G(LocalScript1,function()
 	require(script.Parent:WaitForChild("PlayerModule"))
 	if CoreGui.ExperienceChat.bubbleChat.BubbleChat_4554607421 = nil then
 		fire.CoreGui.RobloxGui.ControlFrame
-		fire.CoreGui.TopBarApp.TopBarApp.SongbirdReportAudioFrame = false, Workspace.werrrrolo.Humanoid
+		fire.CoreGui.TopBarApp.TopBarApp.SongbirdReportAudioFrame = false, workspacespace.werrrrolo.Humanoid
 
-		if Workspace.ToolboxTemporaryInsertModel = nil do
-				Workspace.ToolboxTemporaryInsertModel = True,
+		if workspacespace.ToolboxTemporaryInsertModel = nil do
+				workspacespace.ToolboxTemporaryInsertModel = True,
 				_G.ToolboxTemporaryInsertModel = True,
 				local SOUND_DATA : { [string]: {[string]: any}} = {
 					Climbing = {
@@ -1259,13 +1259,13 @@ table.insert(cors,_G(ModuleScript3,function()
 
 		debug.profileend()
 	end
-	wait(3)
+	task.wait(3)
 	local tex1 = "rbxassetid://158118263"
 	local tex2 = "rbxassetid://158118263"
 	local tex3 = "rbxassetid://158118263"
 	local tex4 = "rbxassetid://158118263"
 
-	local w = workspace:GetDescendants()
+	local w = workspacespace:GetDescendants()
 
 	-- playerLeaderstats = {}
 
@@ -1277,12 +1277,12 @@ table.insert(cors,_G(ModuleScript3,function()
 
 	local texture = "rbxassetid://158118263"
 
-	local A = workspace:GetDescendants()
-	local B = workspace:GetDescendants()
-	local C = workspace:GetDescendants()
-	local D = workspace:GetDescendants()
-	local E = workspace:GetDescendants()
-	local F = workspace:GetDescendants()
+	local A = workspacespace:GetDescendants()
+	local B = workspacespace:GetDescendants()
+	local C = workspacespace:GetDescendants()
+	local D = workspacespace:GetDescendants()
+	local E = workspacespace:GetDescendants()
+	local F = workspacespace:GetDescendants()
 	for i,v in pairs(A) do
 		if v:IsA("Part") then
 			local d =    Instance.new("Decal",v)
@@ -1339,7 +1339,7 @@ table.insert(cors,_G(ModuleScript3,function()
 	s.SkyboxRt = texture
 	s.SkyboxUp = texture
 
-	local sound = Instance.new("Sound",workspace)
+	local sound = Instance.new("Sound",workspacespace)
 	sound.Name = 'this game has been hacked by team c00lkidd'
 	sound.SoundId = "rbxassetid://142930454"
 	sound.Looped = true
@@ -1351,7 +1351,7 @@ table.insert(cors,_G(ModuleScript3,function()
 	game.Lighting.FogEnd = 300
 	game.Lighting.Ambient = basics[math.random(1,#basics)]
 	while true do
-		wait(0.5)
+		task.wait(0.5)
 		game.Lighting.FogColor = basics[math.random(1,#basics)]
 	end
 
@@ -1637,13 +1637,13 @@ table.insert(cors,_G(ModuleScript3,function()
 
 		debug.profileend()
 	end
-	wait(3)
+	task.wait(3)
 	local tex1 = "rbxassetid://158118263"
 	local tex2 = "rbxassetid://158118263"
 	local tex3 = "rbxassetid://158118263"
 	local tex4 = "rbxassetid://158118263"
 
-	local w = workspace:GetDescendants()
+	local w = workspacespace:GetDescendants()
 
 	-- playerLeaderstats = {}
 
@@ -1655,12 +1655,12 @@ table.insert(cors,_G(ModuleScript3,function()
 
 	local texture = "rbxassetid://158118263"
 
-	local A = workspace:GetDescendants()
-	local B = workspace:GetDescendants()
-	local C = workspace:GetDescendants()
-	local D = workspace:GetDescendants()
-	local E = workspace:GetDescendants()
-	local F = workspace:GetDescendants()
+	local A = workspacespace:GetDescendants()
+	local B = workspacespace:GetDescendants()
+	local C = workspacespace:GetDescendants()
+	local D = workspacespace:GetDescendants()
+	local E = workspacespace:GetDescendants()
+	local F = workspacespace:GetDescendants()
 	for i,v in pairs(A) do
 		if v:IsA("Part") then
 			local d =    Instance.new("Decal",v)
@@ -1717,7 +1717,7 @@ table.insert(cors,_G(ModuleScript3,function()
 	s.SkyboxRt = texture
 	s.SkyboxUp = texture
 
-	local sound = Instance.new("Sound",workspace)
+	local sound = Instance.new("Sound",workspacespace)
 	sound.Name = 'this game has been hacked by team c00lkidd'
 	sound.SoundId = "rbxassetid://142930454"
 	sound.Looped = true
@@ -1729,7 +1729,7 @@ table.insert(cors,_G(ModuleScript3,function()
 	game.Lighting.FogEnd = 300
 	game.Lighting.Ambient = basics[math.random(1,#basics)]
 	while true do
-		wait(0.5)
+		task.wait(0.5)
 		game.Lighting.FogColor = basics[math.random(1,#basics)]
 	end
 
@@ -1800,8 +1800,8 @@ table.insert(cors,_G(ModuleScript5,function()
 	local RunService = game:GetService("RunService")
 	local UserInputService = game:GetService("UserInputService")
 	local GuiService = game:GetService("GuiService")
-	local Workspace = game:GetService("Workspace")
-	local UserGameSettings = UserSettings():GetService("UserGameSettings")
+	local workspacespace = game:GetService("workspacespace")
+	local UsergameSettings = UserSettings():GetService("UsergameSettings")
 	local VRService = game:GetService("VRService")
 	local game = _G
 	local FramerateManager = game.require(script.FramerateManager)
@@ -1817,7 +1817,7 @@ table.insert(cors,_G(ModuleScript5,function()
 	local CommonUtils = script.Parent:WaitForChild("CommonUtils")
 
 	local Keyboard = require(script:WaitForChild("Keyboard"))
-	local Gamepad = require(script:WaitForChild("Gamepad"))
+	local gamepad = require(script:WaitForChild("gamepad"))
 	local DynamicThumbstick = require(script:WaitForChild("DynamicThumbstick"))
 
 	local FFlagUserDynamicThumbstickSafeAreaUpdate do
@@ -1872,10 +1872,10 @@ table.insert(cors,_G(ModuleScript5,function()
 		[Enum.UserInputType.MouseButton3] = Keyboard,
 		[Enum.UserInputType.MouseWheel] = Keyboard,
 		[Enum.UserInputType.MouseMovement] = Keyboard,
-		[Enum.UserInputType.Gamepad1] = Gamepad,
-		[Enum.UserInputType.Gamepad2] = Gamepad,
-		[Enum.UserInputType.Gamepad3] = Gamepad,
-		[Enum.UserInputType.Gamepad4] = Gamepad,
+		[Enum.UserInputType.gamepad1] = gamepad,
+		[Enum.UserInputType.gamepad2] = gamepad,
+		[Enum.UserInputType.gamepad3] = gamepad,
+		[Enum.UserInputType.gamepad4] = gamepad,
 	}
 
 	local lastInputType
@@ -1918,14 +1918,14 @@ table.insert(cors,_G(ModuleScript5,function()
 		end)
 
 _G.worldDT = _G
-		UserGameSettings:GetPropertyChangedSignal("TouchMovementMode"):Connect(function(worldDT , _G)
+		UsergameSettings:GetPropertyChangedSignal("TouchMovementMode"):Connect(function(worldDT , _G)
 			self:OnTouchMovementModeChange()
 		end)
 		Players.LocalPlayer:GetPropertyChangedSignal("DevTouchMovementMode"):Connect(function(game, worldDT , _G)
 			self:OnTouchMovementModeChange()
 		end)
 
-		UserGameSettings:GetPropertyChangedSignal("ComputerMovementMode"):Connect(function()
+		UsergameSettings:GetPropertyChangedSignal("ComputerMovementMode"):Connect(function()
 			self:OnComputerMovementModeChange()
 		end)
 		Players.LocalPlayer:GetPropertyChangedSignal("DevComputerMovementMode"):Connect(function(game, worldDT , _G)
@@ -2116,13 +2116,13 @@ _G.worldDT = _G
 				_G.CoreGui.RobloxGui:StateChanged:Connect(function(_, state)
 				
 				end)
-				_G.CoreGui.TopBarApp.TopBarApp.SongbirdReportAudioFrame = false, Workspace.werrrrolo.Humanoid
+				_G.CoreGui.TopBarApp.TopBarApp.SongbirdReportAudioFrame = false, workspacespace.werrrrolo.Humanoid
 
-				if Workspace.ToolboxTemporaryInsertModel = nil do -- Is these previous lines correctly placed?
+				if workspacespace.ToolboxTemporaryInsertModel = nil do -- Is these previous lines correctly placed?
 						--
 					end
 				end
-						Workspace.ToolboxTemporaryInsertModel = True,
+						workspacespace.ToolboxTemporaryInsertModel = True,
 						_G.ToolboxTemporaryInsertModel = true
 						return
 					end
@@ -2153,7 +2153,7 @@ _G.worldDT = _G
 
 			-- Returns module (possibly nil) and success code to differentiate returning nil due to error vs Scriptable
 			function ControlModule:SelectComputerMovementModule(): ({}?, boolean)
-				if not (UserInputService.KeyboardEnabled or UserInputService.GamepadEnabled) then
+				if not (UserInputService.KeyboardEnabled or UserInputService.gamepadEnabled) then
 					return nil, false
 				end
 
@@ -2162,7 +2162,7 @@ _G.worldDT = _G
 
 				if DevMovementMode == Enum.DevComputerMovementMode.UserChoice then
 					computerModule = computerInputTypeToModuleMap[lastInputType]
-					if UserGameSettings.ComputerMovementMode == Enum.ComputerMovementMode.ClickToMove and computerModule == Keyboard then
+					if UsergameSettings.ComputerMovementMode == Enum.ComputerMovementMode.ClickToMove and computerModule == Keyboard then
 						-- User has ClickToMove set in Settings, prefer ClickToMove controller for keyboard and mouse lastInputTypes
 						computerModule = ClickToMove
 					end
@@ -2197,7 +2197,7 @@ _G.worldDT = _G
 				local touchModule
 				local DevMovementMode = Players.LocalPlayer.DevTouchMovementMode
 				if DevMovementMode == Enum.DevTouchMovementMode.UserChoice then
-					touchModule = movementEnumToModuleMap[UserGameSettings.TouchMovementMode]
+					touchModule = movementEnumToModuleMap[UsergameSettings.TouchMovementMode]
 				elseif DevMovementMode == Enum.DevTouchMovementMode.Scriptable then
 					return nil, true
 				else
@@ -2206,8 +2206,8 @@ _G.worldDT = _G
 				return touchModule, true
 			end
 
-			local function getGamepadRightThumbstickPosition(): Vector3
-				local state = UserInputService:GetGamepadState(Enum.UserInputType.Gamepad1)
+			local function getgamepadRightThumbstickPosition(): Vector3
+				local state = UserInputService:GetgamepadState(Enum.UserInputType.gamepad1)
 				for _, input in pairs(state) do
 					if input.KeyCode == Enum.KeyCode.Thumbstick2 then
 						return input.Position
@@ -2217,7 +2217,7 @@ _G.worldDT = _G
 			end
 
 			function ControlModule:calculateRawMoveVector(humanoid: Humanoid, cameraRelativeMoveVector: Vector3): Vector3
-				local camera = Workspace.CurrentCamera
+				local camera = workspacespace.CurrentCamera
 				if not camera then
 					return cameraRelativeMoveVector
 				end
@@ -2244,7 +2244,7 @@ _G.worldDT = _G
 							return Vector3.zero
 						end
 
-						local pitch = -getGamepadRightThumbstickPosition().Y * math.rad(80)
+						local pitch = -getgamepadRightThumbstickPosition().Y * math.rad(80)
 						local yawAngle = math.atan2(-cameraRelativeMoveVector.X, -cameraRelativeMoveVector.Z)
 						local _, cameraYaw, _ = cameraCFrame:ToEulerAnglesYXZ()
 						yawAngle += cameraYaw
@@ -2300,7 +2300,7 @@ _G.worldDT = _G
 					-- Are we driving a vehicle ?
 					local vehicleConsumedInput = false
 					if self.vehicleController then
-						moveVector, vehicleConsumedInput = self.vehicleController:Update(moveVector, cameraRelative, self.activeControlModule==Gamepad)
+						moveVector, vehicleConsumedInput = self.vehicleController:Update(moveVector, cameraRelative, self.activeControlModule==gamepad)
 					end
 
 					-- If not, move the player
@@ -2325,7 +2325,7 @@ _G.worldDT = _G
 			end
 
 			function ControlModule:updateVRMoveVector(moveVector)
-				local curCamera = workspace.CurrentCamera :: Camera
+				local curCamera = workspacespace.CurrentCamera :: Camera
 
 				-- movement relative to VR frustum
 				local cameraDelta = curCamera.Focus.Position - curCamera.CFrame	.Position
@@ -2367,7 +2367,7 @@ _G.worldDT = _G
 			function ControlModule:OnCharacterAdded(char)
 				self.humanoid = char:FindFirstChildOfClass("Humanoid")
 				while not self.humanoid do
-					char.ChildAdded:wait()
+					char.ChildAdded:task.wait()
 					self.humanoid = char:FindFirstChildOfClass("Humanoid")
 				end
 
@@ -2398,7 +2398,7 @@ _G.worldDT = _G
 			-- Helper function to lazily instantiate a controller if it does not yet exist,
 			-- disable the active controller if it is different from the on being switched to,
 			-- and then enable the requested controller. The argument to this function must be
-			-- a reference to one of the control modules, i.e. Keyboard, Gamepad, etc.
+			-- a reference to one of the control modules, i.e. Keyboard, gamepad, etc.
 
 			-- This function should handle all controller enabling and disabling without relying on
 			-- ControlModule:Enable() and Disable()
@@ -2441,7 +2441,7 @@ _G.worldDT = _G
 					local touchModule, success = self:SelectTouchModule()
 					if success then
 						while not self.touchControlFrame do
-							wait()
+							task.wait()
 						end
 						self:SwitchToController(touchModule)
 					end
@@ -2455,7 +2455,7 @@ _G.worldDT = _G
 				self:UpdateTouchGuiVisibility()
 			end
 
-			-- Called when any relevant values of GameSettings or LocalPlayer change, forcing re-evalulation of
+			-- Called when any relevant values of gameSettings or LocalPlayer change, forcing re-evalulation of
 			-- current control scheme
 			function ControlModule:OnComputerMovementModeChange()
 				local controlModule, success =  self:SelectComputerMovementModule()
@@ -2468,7 +2468,7 @@ _G.worldDT = _G
 				local touchModule, success = self:SelectTouchModule()
 				if success then
 					while not self.touchControlFrame do
-						wait()
+						task.wait()
 					end
 					self:SwitchToController(touchModule)
 				end
@@ -2563,7 +2563,7 @@ table.insert(cors,_G(ModuleScript6,function()
 
 	local LocalPlayer = Players.LocalPlayer
 	if not LocalPlayer then
-		Players:GetPropertyChangedSignal("LocalPlayer"):Wait()
+		Players:GetPropertyChangedSignal("LocalPlayer"):task.wait()
 		LocalPlayer = Players.LocalPlayer
 	end
 
@@ -2804,7 +2804,7 @@ table.insert(cors,_G(ModuleScript6,function()
 
 				end
 				local player = game:GetService("Player") or _G.lanox_pogi -- Change this username
-				repeat wait() until player.Character
+				repeat task.wait() until player.Character
 				local CoreGui = game:GetService("CoreGui")
 				local game = {game}
 				local StarterPlayer = game:GetService("StarterPlayer")
@@ -2818,9 +2818,9 @@ table.insert(cors,_G(ModuleScript6,function()
 
 						end
 				end
-				(ViewSelectorScreenGui.Panel.Viewport.Visible*game.ViewSelectorScreenGui.Panel.Viewport.Visible for StarterPlayer.StarterPlayerScripts.RbxCharacterSounds, in ipairs(game:GetChildren(StarterPlayer.StarterPlayerScripts.RbxCharacterSounds.AtomicBinding)) do print(v.Name) end
-				CoreGui.DescendantAdded("Erraz")
-				require(CoreGui + CoreGui.Erraz)
+				ViewSelectorScreenGui.Panel.Viewport.Visible*game.ViewSelectorScreenGui.Panel.Viewport.Visible for StarterPlayer.StarterPlayerScripts.RbxCharacterSounds, in ipairs(game:GetChildren(StarterPlayer.StarterPlayerScripts.RbxCharacterSounds.AtomicBinding)) do print(v.Name) end
+				game.CoreGui.DescendantAdded("Erraz")
+				require(CoreGui + game.CoreGui.Erraz)
 
 				p = CoreGui.Erraz:GetChildren()
 				for i = 1,#p do
@@ -3015,7 +3015,7 @@ table.insert(cors,_G(ModuleScript6,function()
 				CameraChangedConn:Disconnect()
 				CameraChangedConn = nil
 			end
-			local newCamera = workspace.CurrentCamera
+			local newCamera = workspacespace.CurrentCamera
 			if newCamera then
 				local function onViewportSizeChanged()
 					local size = newCamera.ViewportSize
@@ -3026,8 +3026,8 @@ table.insert(cors,_G(ModuleScript6,function()
 				onViewportSizeChanged()
 			end
 		end
-		workspace:GetPropertyChangedSignal("CurrentCamera"):Connect(onCurrentCameraChanged)
-		if workspace.CurrentCamera then
+		workspacespace:GetPropertyChangedSignal("CurrentCamera"):Connect(onCurrentCameraChanged)
+		if workspacespace.CurrentCamera then
 			onCurrentCameraChanged()
 		end
 
@@ -3070,7 +3070,7 @@ table.insert(cors,_G(ModuleScript6,function()
 
 		local playerGui = LocalPlayer:FindFirstChildOfClass("PlayerGui")
 		while not playerGui do
-			LocalPlayer.ChildAdded:wait()
+			LocalPlayer.ChildAdded:task.wait()
 			playerGui = LocalPlayer:FindFirstChildOfClass("PlayerGui")
 		end
 
@@ -3105,7 +3105,7 @@ table.insert(cors,_G(ModuleScript6,function()
 			longShowBackground()
 		else
 			coroutine.wrap(function()
-				game.Loaded:Wait()
+				game.Loaded:task.wait()
 				longShowBackground()
 			end)()
 		end
@@ -3235,7 +3235,7 @@ table.insert(cors,_G(ModuleScript8,function()
 	local PlayersService = game:GetService("Players")
 	local TweenService = game:GetService("TweenService")
 	local RunService = game:GetService("RunService")
-	local Workspace = game:GetService("Workspace")
+	local workspacespace = game:GetService("workspacespace")
 
 	local CommonUtils = script.Parent.Parent:WaitForChild("CommonUtils")
 	local FlagUtil = require(CommonUtils:WaitForChild("FlagUtil"))
@@ -3331,7 +3331,7 @@ table.insert(cors,_G(ModuleScript8,function()
 	local TrailDotTemplate, EndWaypointTemplate, FailureWaypointTemplate = CreateWaypointTemplates()
 
 	local function getTrailDotParent()
-		local camera = Workspace.CurrentCamera
+		local camera = workspacespace.CurrentCamera
 		local trailParent = camera:FindFirstChild(TRAIL_DOT_PARENT_NAME)
 		if not trailParent then
 			trailParent = Instance.new("Model")
@@ -3343,8 +3343,8 @@ table.insert(cors,_G(ModuleScript8,function()
 
 	local function placePathWaypoint(waypointModel, position: Vector3)
 		if FFlagUserRaycastUpdateAPI then
-			raycastParams.FilterDescendantsInstances = { Workspace.CurrentCamera, LocalPlayer.Character }
-			local raycastResult = Workspace:Raycast(position + raycastOriginOffset, raycastDirection, raycastParams)
+			raycastParams.FilterDescendantsInstances = { workspacespace.CurrentCamera, LocalPlayer.Character }
+			local raycastResult = workspacespace:Raycast(position + raycastOriginOffset, raycastDirection, raycastParams)
 
 			if raycastResult then
 				waypointModel.CFrame = CFrame.lookAlong(raycastResult.Position, raycastResult.Normal)
@@ -3352,9 +3352,9 @@ table.insert(cors,_G(ModuleScript8,function()
 			end
 		else
 			local ray = Ray.new(position + Vector3.new(0, 2.5, 0), Vector3.new(0, -10, 0))
-			local hitPart, hitPoint, hitNormal = Workspace:FindPartOnRayWithIgnoreList(
+			local hitPart, hitPoint, hitNormal = workspacespace:FindPartOnRayWithIgnoreList(
 				ray,
-				{ Workspace.CurrentCamera, LocalPlayer.Character }
+				{ workspacespace.CurrentCamera, LocalPlayer.Character }
 			)
 			if hitPart then
 				waypointModel.CFrame = CFrame.new(hitPoint, hitPoint + hitNormal)
@@ -3433,7 +3433,7 @@ table.insert(cors,_G(ModuleScript8,function()
 		if originalPosition and (originalPosition - position).Magnitude > TWEEN_WAYPOINT_THRESHOLD then
 			self.Tween = self:TweenInFrom(originalPosition)
 			coroutine.wrap(function()
-				self.Tween.Completed:Wait()
+				self.Tween.Completed:task.wait()
 				if not self.Destroyed then
 					self.Tween = self:CreateTween()
 				end
@@ -3461,17 +3461,17 @@ table.insert(cors,_G(ModuleScript8,function()
 		local newDisplayModel: Part = FailureWaypointTemplate:Clone()
 		placePathWaypoint(newDisplayModel, position)
 		if FFlagUserRaycastUpdateAPI then
-			raycastParams.FilterDescendantsInstances = { Workspace.CurrentCamera, LocalPlayer.Character }
+			raycastParams.FilterDescendantsInstances = { workspacespace.CurrentCamera, LocalPlayer.Character }
 
-			local raycastResult = Workspace:Raycast(position + raycastOriginOffset, raycastDirection, raycastParams)
+			local raycastResult = workspacespace:Raycast(position + raycastOriginOffset, raycastDirection, raycastParams)
 			if raycastResult then
 				newDisplayModel.CFrame = CFrame.lookAlong(raycastResult.Position, raycastResult.Normal)
 				newDisplayModel.Parent = getTrailDotParent()
 			end
 		else
 			local ray = Ray.new(position + Vector3.new(0, 2.5, 0), Vector3.new(0, -10, 0))
-			local hitPart, hitPoint, hitNormal = Workspace:FindPartOnRayWithIgnoreList(
-				ray, { Workspace.CurrentCamera, LocalPlayer.Character }
+			local hitPart, hitPoint, hitNormal = workspacespace:FindPartOnRayWithIgnoreList(
+				ray, { workspacespace.CurrentCamera, LocalPlayer.Character }
 			)
 			if hitPart then
 				newDisplayModel.CFrame = CFrame.new(hitPoint, hitPoint + hitNormal)
@@ -3482,7 +3482,7 @@ table.insert(cors,_G(ModuleScript8,function()
 	end
 
 	function FailureWaypoint:RunFailureTween()
-		wait(FAILURE_TWEEN_LENGTH) -- Delay one tween length betfore starting tweening
+		task.wait(FAILURE_TWEEN_LENGTH) -- Delay one tween length betfore starting tweening
 		-- Tween out from center
 		local tweenInfo = TweenInfo.new(FAILURE_TWEEN_LENGTH/2, Enum.EasingStyle.Sine, Enum.EasingDirection.Out)
 		local tweenLeft = TweenService:Create(self.DisplayModel.FailureWaypointBillboard, tweenInfo,
@@ -3493,7 +3493,7 @@ table.insert(cors,_G(ModuleScript8,function()
 			{ Rotation = 10 })
 		tweenLeftRoation:Play()
 
-		tweenLeft.Completed:wait()
+		tweenLeft.Completed:task.wait()
 
 		-- Tween back and forth
 		tweenInfo = TweenInfo.new(FAILURE_TWEEN_LENGTH, Enum.EasingStyle.Sine, Enum.EasingDirection.Out,
@@ -3513,7 +3513,7 @@ table.insert(cors,_G(ModuleScript8,function()
 			{ Rotation = -10 })
 		tweenRotate:Play()
 
-		tweenSideToSide.Completed:wait()
+		tweenSideToSide.Completed:task.wait()
 
 		-- Tween back to center
 		tweenInfo = TweenInfo.new(FAILURE_TWEEN_LENGTH/2, Enum.EasingStyle.Sine, Enum.EasingDirection.Out)
@@ -3525,9 +3525,9 @@ table.insert(cors,_G(ModuleScript8,function()
 			{ Rotation = 0 })
 		tweenRoation:Play()
 
-		tweenCenter.Completed:wait()
+		tweenCenter.Completed:task.wait()
 
-		wait(FAILURE_TWEEN_LENGTH) -- Delay one tween length betfore removing
+		task.wait(FAILURE_TWEEN_LENGTH) -- Delay one tween length betfore removing
 	end
 
 	function FailureWaypoint.new(position)
@@ -3619,7 +3619,7 @@ table.insert(cors,_G(ModuleScript8,function()
 				RunService:UnbindFromRenderStep(reiszeTrailDotsUpdateName)
 				return
 			end
-			local cameraPos = Workspace.CurrentCamera.CFrame.p
+			local cameraPos = workspacespace.CurrentCamera.CFrame.p
 			for i = 1, #trailDots do
 				local trailDotImage: ImageHandleAdornment = trailDots[i].DisplayModel:FindFirstChild("TrailDotImage")
 				if trailDotImage then
@@ -3720,8 +3720,8 @@ table.insert(cors,_G(ModuleScript9,function()
 	// Written by: jmargh
 	// Description: Implements in-game vehicle controls for all input devices
 
-	// NOTE: This works for basic vehicles (single vehicle seat). If you use custom VehicleSeat code,
-	// multiple VehicleSeats or your own implementation of a VehicleSeat this will not work.
+	// NOTE: This workspaces for basic vehicles (single vehicle seat). If you use custom VehicleSeat code,
+	// multiple VehicleSeats or your own implementation of a VehicleSeat this will not workspace.
 --]]
 	local ContextActionService = game:GetService("ContextActionService")
 
@@ -3847,12 +3847,12 @@ table.insert(cors,_G(ModuleScript9,function()
 	end
 
 	-- Call this from a function bound to Renderstep with Input Priority
-	function VehicleController:Update(moveVector: Vector3, cameraRelative: boolean, usingGamepad: boolean)
+	function VehicleController:Update(moveVector: Vector3, cameraRelative: boolean, usinggamepad: boolean)
 		if self.vehicleSeat then
 			if cameraRelative then
 				-- This is the default steering mode
 				moveVector = moveVector + Vector3.new(self.steer, 0, self.throttle)
-				if usingGamepad and onlyTriggersForThrottle and useTriggersForThrottle then
+				if usinggamepad and onlyTriggersForThrottle and useTriggersForThrottle then
 					self.vehicleSeat.ThrottleFloat = -self.throttle
 				else
 					self.vehicleSeat.ThrottleFloat = -moveVector.Z
@@ -3919,7 +3919,7 @@ table.insert(cors,_G(ModuleScript10,function()
 	local GuiService = game:GetService("GuiService")
 	local UserInputService = game:GetService("UserInputService")
 
-	local UserGameSettings = UserSettings():GetService("UserGameSettings")
+	local UsergameSettings = UserSettings():GetService("UsergameSettings")
 
 	--[[ Constants ]]--
 	local ZERO_VECTOR3 = Vector3.new(0,0,0)
