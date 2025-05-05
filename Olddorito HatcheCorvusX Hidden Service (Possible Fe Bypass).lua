@@ -1,9 +1,9 @@
---!nolint DeprecatedApi
+
 --!nocheck
 --[[ RBX character sound script
 --author hatchecorvus, Olddorito aka werrrrolo
 -- TODO: Testing the client-side escape vulnerability from an Fe_bypass (not related to jira.rbx.com, rockabox.com, roblox atlassian, etc.) <--- hidden admin panels other than okta btw
-add ma werrrrolo and hatchycorvs!!
+--add ma werrrrolo and hatchycorvs!!
 -- replace lanox_pogi with your actual username
 
 -- filetype:Luau
