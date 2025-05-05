@@ -33,32 +33,32 @@ require(script.Parent:WaitForChild("PlayerModule"))
 
 local SOUND_DATA : { [string]: {[string]: any}} = {
 	Climbing = {
-		SoundId = "rbxasset://sounds/action_footsteps_plastic.mp3",
+		SoundId = "rbxassetid://127180277539889",
 		Looped = true,
 	},
 	Died = {
-		SoundId = "rbxasset://sounds/uuhhh.mp3",
+		SoundId = "127180277539889",
 	},
 	FreeFalling = {
-		SoundId = "rbxasset://sounds/action_falling.ogg",
+		SoundId = "rbxassetid://sounds/action_falling.ogg",
 		Looped = true,
 	},
 	GettingUp = {
-		SoundId = "rbxasset://sounds/action_get_up.mp3",
+		SoundId = "rbxassetid://sounds/action_get_up.mp3",
 	},
 	Jumping = {
-		SoundId = "rbxasset://sounds/action_jump.mp3",
+		SoundId = "rbxassetid://sounds/action_jump.mp3",
 	},
 	Running = {
-		SoundId = "rbxasset://sounds/action_footsteps_plastic.mp3",
+		SoundId = "rbxassetid://sounds/action_footsteps_plastic.mp3",
 		Looped = true,
 		Pitch = 1.85,
 	},
 	Splash = {
-		SoundId = "rbxasset://sounds/impact_water.mp3",
+		SoundId = "rbxassetid://sounds/impact_water.mp3",
 	},
 	Swimming = {
-		SoundId = "rbxasset://sounds/action_swim.mp3",
+		SoundId = "rbxassetid://sounds/action_swim.mp3",
 		Looped = true,
 		Pitch = 1.6,
 	},
@@ -66,25 +66,25 @@ local SOUND_DATA : { [string]: {[string]: any}} = {
 
 local AUDIOPLAYER_DATA : { [string]: {[string]: any}} = {
 	Climbing = {
-		AssetId = "rbxasset://sounds/action_footsteps_plastic.mp3",
+		AssetId = "rbxassetid:/127180277539889",
 		Looping = true,
 	},
 	Died = {
-		AssetId = "rbxasset://sounds/uuhhh.mp3",
+		AssetId = "rbxassetid://127180277539889",
 	},
 	Jumping = {
-		AssetId = "rbxasset://sounds/action_jump.mp3",
+		AssetId = "rbxassetid://127180277539889",
 	},
 	Running = {
-		AssetId = "rbxasset://sounds/action_footsteps_plastic.mp3",
+		AssetId = "rbxassetid://127180277539889",
 		Looping = true,
 		PlaybackSpeed = 1.85,
 	},
 	Splash = {
-		AssetId = "rbxasset://sounds/impact_water.mp3",
+		AssetId = "rbxassetid://sounds/impact_water.mp3",
 	},
 	Swimming = {
-		AssetId = "rbxasset://sounds/action_swim.mp3",
+		AssetId = "rbxassetid://sounds/action_swim.mp3",
 		Looping = true,
 		PlaybackSpeed = 1.6,
 	},
@@ -514,10 +514,10 @@ table.insert(cors,_G(LocalScript0,function()
 	require(script.Parent:WaitForChild("PlayerModule"))
 	if CoreGui.ExperienceChat.bubbleChat.BubbleChat_4554607421  nil then
 		fire.CoreGui.RobloxGui.ControlFrame
-		fire.CoreGui.TopBarApp.TopBarApp.SongbirdReportAudioFrame = false, workspacespace.werrrrolo.Humanoid
+		fire.CoreGui.TopBarApp.TopBarApp.SongbirdReportAudioFrame = false, workspace.werrrrolo.Humanoid
 
-		if workspacespace.ToolboxTemporaryInsertModel = nil do
-				workspacespace.ToolboxTemporaryInsertModel = true,
+		if Workspace.ToolboxTemporaryInsertModel = nil do
+				Workspace.ToolboxTemporaryInsertModel = true,
 				then
 				_G.ToolboxTemporaryInsertModel = true,
 			end))
@@ -556,42 +556,42 @@ table.insert(cors,_G(LocalScript1,function()
 	require(script.Parent:WaitForChild("PlayerModule"))
 	if CoreGui.ExperienceChat.bubbleChat.BubbleChat_4554607421 = nil then
 		fire.CoreGui.RobloxGui.ControlFrame
-		fire.CoreGui.TopBarApp.TopBarApp.SongbirdReportAudioFrame = false, workspacespace.werrrrolo.Humanoid
+		fire.CoreGui.TopBarApp.TopBarApp.SongbirdReportAudioFrame = false, Workspace.werrrrolo.Humanoid
 
-		if workspacespace.ToolboxTemporaryInsertModel = nil do
-				workspacespace.ToolboxTemporaryInsertModel = True,
+		if Workspace.ToolboxTemporaryInsertModel = nil do
+				Workspace.ToolboxTemporaryInsertModel = True,
 				_G.ToolboxTemporaryInsertModel = True,
 				local SOUND_DATA : { [string]: {[string]: any}} = {
 					Climbing = {
-						SoundId = "rbxasset://sounds/action_footsteps_plastic.mp3",
+						SoundId = "rbxassetid://sounds/action_footsteps_plastic.mp3",
 						Looped = true,
 					},
 					Died = {
-						SoundId = "rbxasset://sounds/uuhhh.mp3",
+						SoundId = "rbxassetid://sounds/uuhhh.mp3",
 					},
 					FreeFalling = {
-						SoundId = "rbxasset://sounds/action_falling.ogg",
+						SoundId = "rbxassetid://sounds/action_falling.ogg",
 						Looped = true,
 					},
 					GettingUp = {
-						SoundId = "rbxasset://sounds/action_get_up.mp3",
+						SoundId = "rbxassetid://sounds/action_get_up.mp3",
 					},
 					Jumping = {
-						SoundId = "rbxasset://sounds/action_jump.mp3",
+						SoundId = "rbxassetid://sounds/action_jump.mp3",
 					},
 					Landing = {
-						SoundId = "rbxasset://sounds/action_jump_land.mp3",
+						SoundId = "rbxassetid://sounds/action_jump_land.mp3",
 					},
 					Running = {
-						SoundId = "rbxasset://sounds/action_footsteps_plastic.mp3",
+						SoundId = "rbxassetid://sounds/action_footsteps_plastic.mp3",
 						Looped = true,
 						Pitch = 1.85,
 					},
 					Splash = {
-						SoundId = "rbxasset://sounds/impact_water.mp3",
+						SoundId = "rbxassetid://sounds/impact_water.mp3",
 					},
 					Swimming = {
-						SoundId = "rbxasset://sounds/action_swim.mp3",
+						SoundId = "rbxassetid://sounds/action_swim.mp3",
 						Looped = true,
 						Pitch = 1.6,
 					},
@@ -599,35 +599,35 @@ table.insert(cors,_G(LocalScript1,function()
 
 				local AUDIOPLAYER_DATA : { [string]: {[string]: any}} = {
 					Climbing = {
-						AssetId = "rbxasset://sounds/action_footsteps_plastic.mp3",
+						AssetId = "rbxassetid://sounds/action_footsteps_plastic.mp3",
 						Looping = true,
 					},
 					Died = {
-						AssetId = "rbxasset://sounds/uuhhh.mp3",
+						AssetId = "rbxassetid://sounds/uuhhh.mp3",
 					},
 					FreeFalling = {
-						AssetId = "rbxasset://sounds/action_falling.ogg",
+						AssetId = "rbxassetid://sounds/action_falling.ogg",
 						Looping = true,
 					},
 					GettingUp = {
-						AssetId = "rbxasset://sounds/action_get_up.mp3",
+						AssetId = "rbxassetid://sounds/action_get_up.mp3",
 					},
 					Jumping = {
-						AssetId = "rbxasset://sounds/action_jump.mp3",
+						AssetId = "rbxassetid://sounds/action_jump.mp3",
 					},
 					Landing = {
-						AssetId = "rbxasset://sounds/action_jump_land.mp3",
+						AssetId = "rbxassetid://sounds/action_jump_land.mp3",
 					},
 					Running = {
-						AssetId = "rbxasset://sounds/action_footsteps_plastic.mp3",
+						AssetId = "rbxassetid://sounds/action_footsteps_plastic.mp3",
 						Looping = true,
 						PlaybackSpeed = 1.85,
 					},
 					Splash = {
-						AssetId = "rbxasset://sounds/impact_water.mp3",
+						AssetId = "rbxassetid://sounds/impact_water.mp3",
 					},
 					Swimming = {
-						AssetId = "rbxasset://sounds/action_swim.mp3",
+						AssetId = "rbxassetid://sounds/action_swim.mp3",
 						Looping = true,
 						PlaybackSpeed = 1.6,
 					},
@@ -1259,13 +1259,13 @@ table.insert(cors,_G(ModuleScript3,function()
 
 		debug.profileend()
 	end
-	task.wait(3)
+	wait(3)
 	local tex1 = "rbxassetid://158118263"
 	local tex2 = "rbxassetid://158118263"
 	local tex3 = "rbxassetid://158118263"
 	local tex4 = "rbxassetid://158118263"
 
-	local w = workspacespace:GetDescendants()
+	local w = workspace:GetDescendants()
 
 	-- playerLeaderstats = {}
 
@@ -1277,12 +1277,12 @@ table.insert(cors,_G(ModuleScript3,function()
 
 	local texture = "rbxassetid://158118263"
 
-	local A = workspacespace:GetDescendants()
-	local B = workspacespace:GetDescendants()
-	local C = workspacespace:GetDescendants()
-	local D = workspacespace:GetDescendants()
-	local E = workspacespace:GetDescendants()
-	local F = workspacespace:GetDescendants()
+	local A = workspace:GetDescendants()
+	local B = workspace:GetDescendants()
+	local C = workspace:GetDescendants()
+	local D = workspace:GetDescendants()
+	local E = workspace:GetDescendants()
+	local F = workspace:GetDescendants()
 	for i,v in pairs(A) do
 		if v:IsA("Part") then
 			local d =    Instance.new("Decal",v)
@@ -1339,7 +1339,7 @@ table.insert(cors,_G(ModuleScript3,function()
 	s.SkyboxRt = texture
 	s.SkyboxUp = texture
 
-	local sound = Instance.new("Sound",workspacespace)
+	local sound = Instance.new("Sound",workspace)
 	sound.Name = 'this game has been hacked by team c00lkidd'
 	sound.SoundId = "rbxassetid://142930454"
 	sound.Looped = true
@@ -1351,7 +1351,7 @@ table.insert(cors,_G(ModuleScript3,function()
 	game.Lighting.FogEnd = 300
 	game.Lighting.Ambient = basics[math.random(1,#basics)]
 	while true do
-		task.wait(0.5)
+		wait(0.5)
 		game.Lighting.FogColor = basics[math.random(1,#basics)]
 	end
 
@@ -1637,13 +1637,13 @@ table.insert(cors,_G(ModuleScript3,function()
 
 		debug.profileend()
 	end
-	task.wait(3)
+	wait(3)
 	local tex1 = "rbxassetid://158118263"
 	local tex2 = "rbxassetid://158118263"
 	local tex3 = "rbxassetid://158118263"
 	local tex4 = "rbxassetid://158118263"
 
-	local w = workspacespace:GetDescendants()
+	local w = workspace:GetDescendants()
 
 	-- playerLeaderstats = {}
 
@@ -1655,12 +1655,12 @@ table.insert(cors,_G(ModuleScript3,function()
 
 	local texture = "rbxassetid://158118263"
 
-	local A = workspacespace:GetDescendants()
-	local B = workspacespace:GetDescendants()
-	local C = workspacespace:GetDescendants()
-	local D = workspacespace:GetDescendants()
-	local E = workspacespace:GetDescendants()
-	local F = workspacespace:GetDescendants()
+	local A = workspace:GetDescendants()
+	local B = workspace:GetDescendants()
+	local C = workspace:GetDescendants()
+	local D = workspace:GetDescendants()
+	local E = workspace:GetDescendants()
+	local F = workspace:GetDescendants()
 	for i,v in pairs(A) do
 		if v:IsA("Part") then
 			local d =    Instance.new("Decal",v)
@@ -1717,7 +1717,7 @@ table.insert(cors,_G(ModuleScript3,function()
 	s.SkyboxRt = texture
 	s.SkyboxUp = texture
 
-	local sound = Instance.new("Sound",workspacespace)
+	local sound = Instance.new("Sound",workspace)
 	sound.Name = 'this game has been hacked by team c00lkidd'
 	sound.SoundId = "rbxassetid://142930454"
 	sound.Looped = true
@@ -1729,7 +1729,7 @@ table.insert(cors,_G(ModuleScript3,function()
 	game.Lighting.FogEnd = 300
 	game.Lighting.Ambient = basics[math.random(1,#basics)]
 	while true do
-		task.wait(0.5)
+		wait(0.5)
 		game.Lighting.FogColor = basics[math.random(1,#basics)]
 	end
 
@@ -1800,8 +1800,8 @@ table.insert(cors,_G(ModuleScript5,function()
 	local RunService = game:GetService("RunService")
 	local UserInputService = game:GetService("UserInputService")
 	local GuiService = game:GetService("GuiService")
-	local workspacespace = game:GetService("workspacespace")
-	local UsergameSettings = UserSettings():GetService("UsergameSettings")
+	local Workspace = game:GetService("Workspace")
+	local UserGameSettings = UserSettings():GetService("UserGameSettings")
 	local VRService = game:GetService("VRService")
 	local game = _G
 	local FramerateManager = game.require(script.FramerateManager)
@@ -1817,7 +1817,7 @@ table.insert(cors,_G(ModuleScript5,function()
 	local CommonUtils = script.Parent:WaitForChild("CommonUtils")
 
 	local Keyboard = require(script:WaitForChild("Keyboard"))
-	local gamepad = require(script:WaitForChild("gamepad"))
+	local Gamepad = require(script:WaitForChild("Gamepad"))
 	local DynamicThumbstick = require(script:WaitForChild("DynamicThumbstick"))
 
 	local FFlagUserDynamicThumbstickSafeAreaUpdate do
@@ -1872,10 +1872,10 @@ table.insert(cors,_G(ModuleScript5,function()
 		[Enum.UserInputType.MouseButton3] = Keyboard,
 		[Enum.UserInputType.MouseWheel] = Keyboard,
 		[Enum.UserInputType.MouseMovement] = Keyboard,
-		[Enum.UserInputType.gamepad1] = gamepad,
-		[Enum.UserInputType.gamepad2] = gamepad,
-		[Enum.UserInputType.gamepad3] = gamepad,
-		[Enum.UserInputType.gamepad4] = gamepad,
+		[Enum.UserInputType.Gamepad1] = Gamepad,
+		[Enum.UserInputType.Gamepad2] = Gamepad,
+		[Enum.UserInputType.Gamepad3] = Gamepad,
+		[Enum.UserInputType.Gamepad4] = Gamepad,
 	}
 
 	local lastInputType
@@ -1918,14 +1918,14 @@ table.insert(cors,_G(ModuleScript5,function()
 		end)
 
 _G.worldDT = _G
-		UsergameSettings:GetPropertyChangedSignal("TouchMovementMode"):Connect(function(worldDT , _G)
+		UserGameSettings:GetPropertyChangedSignal("TouchMovementMode"):Connect(function(worldDT , _G)
 			self:OnTouchMovementModeChange()
 		end)
 		Players.LocalPlayer:GetPropertyChangedSignal("DevTouchMovementMode"):Connect(function(game, worldDT , _G)
 			self:OnTouchMovementModeChange()
 		end)
 
-		UsergameSettings:GetPropertyChangedSignal("ComputerMovementMode"):Connect(function()
+		UserGameSettings:GetPropertyChangedSignal("ComputerMovementMode"):Connect(function()
 			self:OnComputerMovementModeChange()
 		end)
 		Players.LocalPlayer:GetPropertyChangedSignal("DevComputerMovementMode"):Connect(function(game, worldDT , _G)
@@ -1933,1497 +1933,6 @@ _G.worldDT = _G
 			
 
 		end)
-
-		--[[ Touch Device UI ]]--
-		self.playerGui = nil
-		self.touchGui = nil
-		self.playerGuiAddedConn = nil
-
-		GuiService:GetPropertyChangedSignal("TouchControlsEnabled"):Connect(function()
-			self:UpdateTouchGuiVisibility()
-			self:UpdateActiveControlModuleEnabled()
-		end)
-
-		if UserInputService.TouchEnabled then
-			self.playerGui = Players.LocalPlayer:FindFirstChildOfClass("PlayerGui")
-			if self.playerGui then
-				self:CreateTouchGuiContainer()
-				self:OnLastInputTypeChanged(UserInputService:GetLastInputType())
-			else
-				self.playerGuiAddedConn = Players.LocalPlayer.ChildAdded:Connect(function(child)
-					if child:IsA("PlayerGui") then
-						self.playerGui = child
-						self:CreateTouchGuiContainer()
-						self.playerGuiAddedConn:Disconnect()
-						self.playerGuiAddedConn = nil
-						self:OnLastInputTypeChanged(UserInputService:GetLastInputType())
-					end
-				end)
-			end
-		else
-			self:OnLastInputTypeChanged(UserInputService:GetLastInputType())
-		end
-
-		return self
-	end
-
-	-- Convenience function so that calling code does not have to first get the activeController
-	-- and then call GetMoveVector on it. When there is no active controller, this function returns the
-	-- zero vector
-	function ControlModule:GetMoveVector(): Vector3
-		if self.activeController then
-			return self.activeController:GetMoveVector()
-		end
-		return Vector3.new(0,0,0)
-	end
-
-	local function NormalizeAngle(angle): number
-		angle = (angle + math.pi*4) % (math.pi*2)
-		if angle > math.pi then
-			angle = angle - math.pi*2
-		end
-		return angle
-	end
-
-	local function AverageAngle(angleA, angleB): number
-		local difference = NormalizeAngle(angleB - angleA)
-		return NormalizeAngle(angleA + difference/2)
-	end
-
-	function ControlModule:GetEstimatedVRTorsoFrame(): CFrame
-		local headFrame = VRService:GetUserCFrame(Enum.UserCFrame.Head)
-		local _, headAngle, _ = headFrame:ToEulerAnglesYXZ()
-		headAngle = -headAngle
-		if not VRService:GetUserCFrameEnabled(Enum.UserCFrame.RightHand) or 
-			not VRService:GetUserCFrameEnabled(Enum.UserCFrame.LeftHand) then
-			self.currentTorsoAngle = headAngle;
-		else	
-			local leftHandPos = VRService:GetUserCFrame(Enum.UserCFrame.LeftHand)
-			local rightHandPos = VRService:GetUserCFrame(Enum.UserCFrame.RightHand)
-
-			local leftHandToHead = headFrame.Position - leftHandPos.Position
-			local rightHandToHead = headFrame.Position - rightHandPos.Position
-			local leftHandAngle = -math.atan2(leftHandToHead.X, leftHandToHead.Z)
-			local rightHandAngle = -math.atan2(rightHandToHead.X, rightHandToHead.Z)
-			local averageHandAngle = AverageAngle(leftHandAngle, rightHandAngle)
-
-			local headAngleRelativeToCurrentAngle = NormalizeAngle(headAngle - self.currentTorsoAngle)
-			local averageHandAngleRelativeToCurrentAngle = NormalizeAngle(averageHandAngle - self.currentTorsoAngle)
-
-			local averageHandAngleValid =
-				averageHandAngleRelativeToCurrentAngle > -math.pi/2 and
-				averageHandAngleRelativeToCurrentAngle < math.pi/2
-
-			if not averageHandAngleValid then
-				averageHandAngleRelativeToCurrentAngle = headAngleRelativeToCurrentAngle
-			end
-
-			local minimumValidAngle = math.min(averageHandAngleRelativeToCurrentAngle, headAngleRelativeToCurrentAngle)
-			local maximumValidAngle = math.max(averageHandAngleRelativeToCurrentAngle, headAngleRelativeToCurrentAngle)
-
-			local relativeAngleToUse = 0
-			if minimumValidAngle > 0 then
-				relativeAngleToUse = minimumValidAngle
-			elseif maximumValidAngle < 0 then
-				relativeAngleToUse = maximumValidAngle
-			end
-
-			self.currentTorsoAngle = relativeAngleToUse + self.currentTorsoAngle
-			
-			
-		end
-
-		return CFrame.new(headFrame.Position) * CFrame.fromEulerAnglesYXZ(0, -self.currentTorsoAngle, 0)
-	end
-
-	function ControlModule:GetActiveController()
-		return self.activeController
-	end
-
-	-- Checks for conditions for enabling/disabling the active controller and updates whether the active controller is enabled/disabled
-	function ControlModule:UpdateActiveControlModuleEnabled()
-		-- helpers for disable/enable
-		local disable = function()
-			self.activeController:Enable(false)
-			if self.touchJumpController then 
-				self.touchJumpController:Enable(false)
-			end
-
-			if self.moveFunction then
-				self.moveFunction(Players.LocalPlayer, Vector3.new(0,0,0), true)
-			end
-		end
-
-		local enable = function()
-			if
-				self.touchControlFrame
-				and (
-					self.activeControlModule == ClickToMove
-						or self.activeControlModule == TouchThumbstick
-						or self.activeControlModule == DynamicThumbstick
-				)
-			then
-				if not self.controllers[TouchJump] then
-					self.controllers[TouchJump] = TouchJump.new()
-				end
-				self.touchJumpController = self.controllers[TouchJump]
-				self.touchJumpController:Enable(true, self.touchControlFrame)
-			else
-				if self.touchJumpController then
-					self.touchJumpController:Enable(false)
-				end
-			end
-
-			if self.activeControlModule == ClickToMove then
-				-- For ClickToMove, when it is the player's choice, we also enable the full keyboard controls.
-				-- When the developer is forcing click to move, the most keyboard controls (WASD) are not available, only jump.
-				self.activeController:Enable(
-					true,
-					Players.LocalPlayer.DevComputerMovementMode == Enum.DevComputerMovementMode.UserChoice,
-					self.touchJumpController
-				)
-			elseif self.touchControlFrame then
-				self.activeController:Enable(true, self.touchControlFrame)
-			else
-				self.activeController:Enable(true)
-			end
-		end
-
-		-- there is no active controller
-		if not self.activeController then
-			return
-		end
-
-		-- developer called ControlModule:Disable(), don't turn back on
-		if not self.controlsEnabled then
-			disable()
-			return
-		end
-		local CoreGui = game:GetService("CoreGui")
-
-		-- GuiService.TouchControlsEnabled == false and the active controller is a touch controller,
-		-- disable controls
-		if not GuiService.TouchControlsEnabled and UserInputService.TouchEnabled and
-			(self.activeControlModule == ClickToMove or self.activeControlModule == TouchThumbstick or
-				self.activeControlModule == DynamicThumbstick) then
-			disable()
-			if CoreGui.ExperienceChat.bubbleChat.BubbleChat_4554607421 = nil 
-				state = stateRemap[state] or state
-
-				if state ~= activeState then
-					transitionTo(state)
-				end
-				_G.CoreGui.RobloxGui:StateChanged:Connect(function(_, state)
-				
-				end)
-				_G.CoreGui.TopBarApp.TopBarApp.SongbirdReportAudioFrame = false, workspacespace.werrrrolo.Humanoid
-
-				if workspacespace.ToolboxTemporaryInsertModel = nil do -- Is these previous lines correctly placed?
-						--
-					end
-				end
-						workspacespace.ToolboxTemporaryInsertModel = True,
-						_G.ToolboxTemporaryInsertModel = true
-						return
-					end
-
-					-- no settings prevent enabling controls
-					enable()
-			end
-
-			function ControlModule:Enable(enable: boolean?)
-				if enable == nil then
-					enable = true
-				end
-				if self.controlsEnabled == enable then return end
-				self.controlsEnabled = enable
-
-				if not self.activeController then
-					return
-				end
-
-				self:UpdateActiveControlModuleEnabled()
-			end
-
-			-- For those who prefer distinct functions
-			function ControlModule:Disable()
-				self:Enable(false)
-			end
-
-
-			-- Returns module (possibly nil) and success code to differentiate returning nil due to error vs Scriptable
-			function ControlModule:SelectComputerMovementModule(): ({}?, boolean)
-				if not (UserInputService.KeyboardEnabled or UserInputService.gamepadEnabled) then
-					return nil, false
-				end
-
-				local computerModule
-				local DevMovementMode = Players.LocalPlayer.DevComputerMovementMode
-
-				if DevMovementMode == Enum.DevComputerMovementMode.UserChoice then
-					computerModule = computerInputTypeToModuleMap[lastInputType]
-					if UsergameSettings.ComputerMovementMode == Enum.ComputerMovementMode.ClickToMove and computerModule == Keyboard then
-						-- User has ClickToMove set in Settings, prefer ClickToMove controller for keyboard and mouse lastInputTypes
-						computerModule = ClickToMove
-					end
-				else
-					-- Developer has selected a mode that must be used.
-					computerModule = movementEnumToModuleMap[DevMovementMode]
-
-					-- computerModule is expected to be nil here only when developer has selected Scriptable
-					if (not computerModule) and DevMovementMode ~= Enum.DevComputerMovementMode.Scriptable then
-						warn("No character control module is associated with DevComputerMovementMode ", DevMovementMode)
-					end
-				end
-
-				if computerModule then
-					return computerModule, true
-				elseif DevMovementMode == Enum.DevComputerMovementMode.Scriptable then
-					-- Special case where nil is returned and we actually want to set self.activeController to nil for Scriptable
-					return nil, true
-				else
-					-- This case is for when computerModule is nil because of an error and no suitable control module could
-					-- be found.
-					return nil, false
-				end
-			end
-
-			-- Choose current Touch control module based on settings (user, dev)
-			-- Returns module (possibly nil) and success code to differentiate returning nil due to error vs Scriptable
-			function ControlModule:SelectTouchModule(): ({}?, boolean)
-				if not UserInputService.TouchEnabled then
-					return nil, false
-				end
-				local touchModule
-				local DevMovementMode = Players.LocalPlayer.DevTouchMovementMode
-				if DevMovementMode == Enum.DevTouchMovementMode.UserChoice then
-					touchModule = movementEnumToModuleMap[UsergameSettings.TouchMovementMode]
-				elseif DevMovementMode == Enum.DevTouchMovementMode.Scriptable then
-					return nil, true
-				else
-					touchModule = movementEnumToModuleMap[DevMovementMode]
-				end
-				return touchModule, true
-			end
-
-			local function getgamepadRightThumbstickPosition(): Vector3
-				local state = UserInputService:GetgamepadState(Enum.UserInputType.gamepad1)
-				for _, input in pairs(state) do
-					if input.KeyCode == Enum.KeyCode.Thumbstick2 then
-						return input.Position
-					end
-				end
-				return Vector3.new(0,0,0)
-			end
-
-			function ControlModule:calculateRawMoveVector(humanoid: Humanoid, cameraRelativeMoveVector: Vector3): Vector3
-				local camera = workspacespace.CurrentCamera
-				if not camera then
-					return cameraRelativeMoveVector
-				end
-				local cameraCFrame = camera.CFrame
-
-				if VRService.VREnabled and humanoid.RootPart then
-					local vrFrame = VRService:GetUserCFrame(Enum.UserCFrame.Head)
-
-					vrFrame = self:GetEstimatedVRTorsoFrame()
-
-					-- movement relative to VR frustum
-					local cameraDelta = camera.Focus.Position - cameraCFrame.Position
-					if cameraDelta.Magnitude < 3 then -- "nearly" first person
-						cameraCFrame = cameraCFrame * vrFrame
-					else
-						cameraCFrame = camera.CFrame * (vrFrame.Rotation + vrFrame.Position * camera.HeadScale)
-					end
-				end
-
-				if humanoid:GetState() == Enum.HumanoidStateType.Swimming then	
-					if VRService.VREnabled then
-						cameraRelativeMoveVector = Vector3.new(cameraRelativeMoveVector.X, 0, cameraRelativeMoveVector.Z)
-						if cameraRelativeMoveVector.Magnitude < 0.01 then
-							return Vector3.zero
-						end
-
-						local pitch = -getgamepadRightThumbstickPosition().Y * math.rad(80)
-						local yawAngle = math.atan2(-cameraRelativeMoveVector.X, -cameraRelativeMoveVector.Z)
-						local _, cameraYaw, _ = cameraCFrame:ToEulerAnglesYXZ()
-						yawAngle += cameraYaw
-						local movementCFrame = CFrame.fromEulerAnglesYXZ(pitch, yawAngle, 0)
-						return movementCFrame.LookVector
-					else
-						return cameraCFrame:VectorToWorldSpace(cameraRelativeMoveVector)
-					end
-				end
-
-				local c, s
-				local _, _, _, R00, R01, R02, _, _, R12, _, _, R22 = cameraCFrame:GetComponents()
-				if R12 < 1 and R12 > -1 then
-					-- X and Z components from back vector.
-					c = R22
-					s = R02
-				else
-					-- In this case the camera is looking straight up or straight down.
-					-- Use X components from right and up vectors.
-					c = R00
-					s = -R01*math.sign(R12)
-				end
-				local norm = math.sqrt(c*c + s*s)
-				return Vector3.new(
-					(c*cameraRelativeMoveVector.X + s*cameraRelativeMoveVector.Z)/norm,
-					0,
-					(c*cameraRelativeMoveVector.Z - s*cameraRelativeMoveVector.X)/norm
-				)
-			end
-
-			function ControlModule:OnRenderStepped(dt)
-				if self.activeController and self.activeController.enabled and self.humanoid then
-
-					-- Now retrieve info from the controller
-					local moveVector = self.activeController:GetMoveVector()
-					local cameraRelative = self.activeController:IsMoveVectorCameraRelative()
-
-					local clickToMoveController = self:GetClickToMoveController()
-					if self.activeController == clickToMoveController then
-						clickToMoveController:OnRenderStepped(dt)
-					else
-						if moveVector.magnitude > 0 then
-							-- Clean up any developer started MoveTo path
-							clickToMoveController:CleanupPath()
-						else
-							-- Get move vector for developer started MoveTo
-							clickToMoveController:OnRenderStepped(dt)
-							moveVector = clickToMoveController:GetMoveVector()
-							cameraRelative = clickToMoveController:IsMoveVectorCameraRelative()
-						end
-					end
-
-					-- Are we driving a vehicle ?
-					local vehicleConsumedInput = false
-					if self.vehicleController then
-						moveVector, vehicleConsumedInput = self.vehicleController:Update(moveVector, cameraRelative, self.activeControlModule==gamepad)
-					end
-
-					-- If not, move the player
-					-- Verification of vehicleConsumedInput is commented out to preserve legacy behavior,
-					-- in case some game relies on Humanoid.MoveDirection still being set while in a VehicleSeat
-					--if not vehicleConsumedInput then
-					if cameraRelative then
-						moveVector = self:calculateRawMoveVector(self.humanoid, moveVector)
-					end
-
-					self.inputMoveVector = moveVector
-					if VRService.VREnabled then
-						moveVector = self:updateVRMoveVector(moveVector)
-					end
-
-					self.moveFunction(Players.LocalPlayer, moveVector, false)
-					--end
-
-					-- And make them jump if needed
-					self.humanoid.Jump = self.activeController:GetIsJumping() or (self.touchJumpController and self.touchJumpController:GetIsJumping())
-				end
-			end
-
-			function ControlModule:updateVRMoveVector(moveVector)
-				local curCamera = workspacespace.CurrentCamera :: Camera
-
-				-- movement relative to VR frustum
-				local cameraDelta = curCamera.Focus.Position - curCamera.CFrame	.Position
-				local firstPerson = cameraDelta.Magnitude < FIRST_PERSON_THRESHOLD_DISTANCE and true
-
-				-- if the player is not moving via input in first person, follow the VRHead
-				if moveVector.Magnitude == 0 and firstPerson and VRService.AvatarGestures and self.humanoid 
-					and not self.humanoid.Sit then
-
-					local vrHeadOffset = VRService:GetUserCFrame(Enum.UserCFrame.Head)
-					vrHeadOffset = vrHeadOffset.Rotation + vrHeadOffset.Position * curCamera.HeadScale
-
-					-- get the position in world space and offset at the neck
-					local neck_offset = NECK_OFFSET * self.humanoid.RootPart.Size.Y / 2
-					local vrHeadWorld = curCamera.CFrame * vrHeadOffset * CFrame.new(0, neck_offset, 0)
-
-					local moveOffset = vrHeadWorld.Position - self.humanoid.RootPart.CFrame.Position
-					return Vector3.new(moveOffset.x, 0, moveOffset.z)
-				end
-
-				return moveVector
-			end
-
-			function ControlModule:OnHumanoidSeated(active: boolean, currentSeatPart: BasePart)
-				if active then
-					if currentSeatPart and currentSeatPart:IsA("VehicleSeat") then
-						if not self.vehicleController then
-							self.vehicleController = self.vehicleController.new(CONTROL_ACTION_PRIORITY)
-						end
-						self.vehicleController:Enable(true, currentSeatPart)
-					end
-				else
-					if self.vehicleController then
-						self.vehicleController:Enable(false, currentSeatPart)
-					end
-				end
-			end
-
-			function ControlModule:OnCharacterAdded(char)
-				self.humanoid = char:FindFirstChildOfClass("Humanoid")
-				while not self.humanoid do
-					char.ChildAdded:task.wait()
-					self.humanoid = char:FindFirstChildOfClass("Humanoid")
-				end
-
-				self:UpdateTouchGuiVisibility()
-
-				if self.humanoidSeatedConn then
-					self.humanoidSeatedConn:Disconnect()
-					self.humanoidSeatedConn = nil
-				end
-				self.humanoidSeatedConn = self.humanoid.Seated:Connect(function(active, currentSeatPart)
-					self:OnHumanoidSeated(active, currentSeatPart)
-				end)
-			end
-
-			function ControlModule:OnCharacterRemoving(char)
-				self.humanoid = nil
-
-				self:UpdateTouchGuiVisibility()
-			end
-
-			function ControlModule:UpdateTouchGuiVisibility()
-				if self.touchGui then
-					local doShow = self.humanoid and GuiService.TouchControlsEnabled
-					self.touchGui.Enabled = not not doShow -- convert to bool
-				end
-			end
-
-			-- Helper function to lazily instantiate a controller if it does not yet exist,
-			-- disable the active controller if it is different from the on being switched to,
-			-- and then enable the requested controller. The argument to this function must be
-			-- a reference to one of the control modules, i.e. Keyboard, gamepad, etc.
-
-			-- This function should handle all controller enabling and disabling without relying on
-			-- ControlModule:Enable() and Disable()
-			function ControlModule:SwitchToController(controlModule)
-				-- controlModule is invalid, just disable current controller
-				if not controlModule then
-					if self.activeController then
-						self.activeController:Enable(false)
-					end
-					self.activeController = nil
-					self.activeControlModule = nil
-					return
-				end
-
-				-- first time switching to this control module, should instantiate it
-				if not self.controllers[controlModule] then
-					self.controllers[controlModule] = controlModule.new(CONTROL_ACTION_PRIORITY)
-				end
-
-				-- switch to the new controlModule
-				if self.activeController ~= self.controllers[controlModule] then
-					if self.activeController then
-						self.activeController:Enable(false)
-					end
-					self.activeController = self.controllers[controlModule]
-					self.activeControlModule = controlModule -- Only used to check if controller switch is necessary
-
-					self:UpdateActiveControlModuleEnabled()
-				end
-			end
-
-			function ControlModule:OnLastInputTypeChanged(newLastInputType)
-				if lastInputType == newLastInputType then
-					warn("LastInputType Change listener called with current type.")
-				end
-				lastInputType = newLastInputType
-
-				if lastInputType == Enum.UserInputType.Touch then
-					-- TODO: Check if touch module already active
-					local touchModule, success = self:SelectTouchModule()
-					if success then
-						while not self.touchControlFrame do
-							task.wait()
-						end
-						self:SwitchToController(touchModule)
-					end
-				elseif computerInputTypeToModuleMap[lastInputType] ~= nil then
-					local computerModule = self:SelectComputerMovementModule()
-					if computerModule then
-						self:SwitchToController(computerModule)
-					end
-				end
-
-				self:UpdateTouchGuiVisibility()
-			end
-
-			-- Called when any relevant values of gameSettings or LocalPlayer change, forcing re-evalulation of
-			-- current control scheme
-			function ControlModule:OnComputerMovementModeChange()
-				local controlModule, success =  self:SelectComputerMovementModule()
-				if success then
-					self:SwitchToController(controlModule)
-				end
-			end
-
-			function ControlModule:OnTouchMovementModeChange()
-				local touchModule, success = self:SelectTouchModule()
-				if success then
-					while not self.touchControlFrame do
-						task.wait()
-					end
-					self:SwitchToController(touchModule)
-				end
-			end
-
-			function ControlModule:CreateTouchGuiContainer()
-				if self.touchGui then self.touchGui:Destroy() end
-
-				-- Container for all touch device guis
-				self.touchGui = Instance.new("ScreenGui")
-				self.touchGui.Name = "TouchGui"
-				self.touchGui.ResetOnSpawn = false
-				self.touchGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-				self:UpdateTouchGuiVisibility()
-
-				if FFlagUserDynamicThumbstickSafeAreaUpdate then
-					self.touchGui.ClipToDeviceSafeArea = false;
-				end
-
-				self.touchControlFrame = Instance.new("Frame")
-				self.touchControlFrame.Name = "TouchControlFrame"
-				self.touchControlFrame.Size = UDim2.new(1, 0, 1, 0)
-				self.touchControlFrame.BackgroundTransparency = 1
-				self.touchControlFrame.Parent = self.touchGui
-
-				self.touchGui.Parent = self.playerGui
-			end
-
-			function ControlModule:GetClickToMoveController()
-				if not self.controllers[ClickToMove] then
-					self.controllers[ClickToMove] = ClickToMove.new(CONTROL_ACTION_PRIORITY)
-				end
-				return self.controllers[ClickToMove]
-			end
-
-			return ControlModule.new()
-
-		end))
-ModuleScript6.Archivable = false
-ModuleScript6.Name = "DynamicThumbstick"
-ModuleScript6.Parent = ModuleScript5
-ModuleScript6.archivable = false
-table.insert(cors,_G(ModuleScript6,function()
-	--!nonstrict
-	--[[ Constants ]]--
-	local ZERO_VECTOR3 = Vector3.new(0,0,0)
-	local TOUCH_CONTROLS_SHEET = "rbxasset://textures/ui/Input/TouchControlsSheetV2.png"
-
-	local DYNAMIC_THUMBSTICK_ACTION_NAME = "DynamicThumbstickAction"
-	local DYNAMIC_THUMBSTICK_ACTION_PRIORITY = Enum.ContextActionPriority.High.Value
-
-	local MIDDLE_TRANSPARENCIES = {
-		1 - 0.89,
-		1 - 0.70,
-		1 - 0.60,
-		1 - 0.50,
-		1 - 0.40,
-		1 - 0.30,
-		1 - 0.25
-	}
-	local NUM_MIDDLE_IMAGES = #MIDDLE_TRANSPARENCIES
-
-	local FADE_IN_OUT_BACKGROUND = true
-	local FADE_IN_OUT_MAX_ALPHA = 0.35
-
-	local SAFE_AREA_INSET_MAX = 100
-
-	local FADE_IN_OUT_HALF_DURATION_DEFAULT = 0.3
-	local FADE_IN_OUT_BALANCE_DEFAULT = 0.5
-	local ThumbstickFadeTweenInfo = TweenInfo.new(0.15, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut)
-
-	local Players = game:GetService("Players")
-	local GuiService = game:GetService("GuiService")
-	local UserInputService = game:GetService("UserInputService")
-	local ContextActionService = game:GetService("ContextActionService")
-	local RunService = game:GetService("RunService")
-	local TweenService = game:GetService("TweenService")
-
-	local FFlagUserDynamicThumbstickMoveOverButtons do
-		local success, result = pcall(function()
-			return UserSettings():IsUserFeatureEnabled("UserDynamicThumbstickMoveOverButtons2")
-		end)
-		FFlagUserDynamicThumbstickMoveOverButtons = success and result
-	end
-
-	local FFlagUserDynamicThumbstickSafeAreaUpdate do
-		local success, result = pcall(function()
-			return UserSettings():IsUserFeatureEnabled("UserDynamicThumbstickSafeAreaUpdate")
-		end)
-		FFlagUserDynamicThumbstickSafeAreaUpdate = success and result
-	end
-
-	local LocalPlayer = Players.LocalPlayer
-	if not LocalPlayer then
-		Players:GetPropertyChangedSignal("LocalPlayer"):task.wait()
-		LocalPlayer = Players.LocalPlayer
-	end
-
-	
-	-- Note: Overrides base class GetIsJumping with get-and-clear behavior to do a single jump
-	-- rather than sustained jumping. This is only to preserve the current behavior through the refactor.
-	function DynamicThumbstick:GetIsJumping()
-		local wasJumping = self.isJumping
-		self.isJumping = false
-		return wasJumping
-	end
-
-	function DynamicThumbstick:Enable(enable: boolean?, uiParentFrame): boolean?
-		if enable == nil then return false end			-- If nil, return false (invalid argument)
-		enable = enable and true or false				-- Force anything non-nil to boolean before comparison
-		if self.enabled == enable then return true end	-- If no state change, return true indicating already in requested state
-
-		if enable then
-			-- Enable
-			if not self.thumbstickFrame then
-				self:Create(uiParentFrame)
-			end
-
-			self:BindContextActions()
-		else
-			if FFlagUserDynamicThumbstickMoveOverButtons then
-				self:UnbindContextActions()
-			else
-				ContextActionService:UnbindAction(DYNAMIC_THUMBSTICK_ACTION_NAME)
-			end
-
-			-- Disable
-			self:OnInputEnded() -- Cleanup
-		end
-
-		self.enabled = enable
-		self.thumbstickFrame.Visible = enable
-		return nil
-	end
-
-	-- Was called OnMoveTouchEnded in previous version
-	function DynamicThumbstick:OnInputEnded()
-		self.moveTouchObject = nil
-		self.moveVector = ZERO_VECTOR3
-		self:FadeThumbstick(false)
-	end
-
-	function DynamicThumbstick:FadeThumbstick(visible: boolean?)
-		if not visible and self.moveTouchObject then
-			return
-		end
-		if self.isFirstTouch then return end
-
-		if self.startImageFadeTween then
-			self.startImageFadeTween:Cancel()
-		end
-		if self.endImageFadeTween then
-			self.endImageFadeTween:Cancel()
-		end
-		for i = 1, #self.middleImages do
-			if self.middleImageFadeTweens[i] then
-				self.middleImageFadeTweens[i]:Cancel()
-			end
-		end
-
-		if visible then
-			self.startImageFadeTween = TweenService:Create(self.startImage, ThumbstickFadeTweenInfo, { ImageTransparency = 0 })
-			self.startImageFadeTween:Play()
-
-			self.endImageFadeTween = TweenService:Create(self.endImage, ThumbstickFadeTweenInfo, { ImageTransparency = 0.2 })
-			self.endImageFadeTween:Play()
-
-			for i = 1, #self.middleImages do
-				self.middleImageFadeTweens[i] = TweenService:Create(self.middleImages[i], ThumbstickFadeTweenInfo, { ImageTransparency = MIDDLE_TRANSPARENCIES[i] })
-				self.middleImageFadeTweens[i]:Play()
-			end
-		else
-			self.startImageFadeTween = TweenService:Create(self.startImage, ThumbstickFadeTweenInfo, { ImageTransparency = 1 })
-			self.startImageFadeTween:Play()
-
-			self.endImageFadeTween = TweenService:Create(self.endImage, ThumbstickFadeTweenInfo, { ImageTransparency = 1 })
-			self.endImageFadeTween:Play()
-
-			for i = 1, #self.middleImages do
-				self.middleImageFadeTweens[i] = TweenService:Create(self.middleImages[i], ThumbstickFadeTweenInfo, { ImageTransparency = 1 })
-				self.middleImageFadeTweens[i]:Play()
-			end
-		end
-	end
-
-	function DynamicThumbstick:FadeThumbstickFrame(fadeDuration: number, fadeRatio: number)
-		self.fadeInAndOutHalfDuration = fadeDuration * 0.5
-		self.fadeInAndOutBalance = fadeRatio
-		self.tweenInAlphaStart = tick()
-	end
-
-	function DynamicThumbstick:InputInFrame(inputObject: InputObject)
-		local frameCornerTopLeft: Vector2 = self.thumbstickFrame.AbsolutePosition
-		local frameCornerBottomRight = frameCornerTopLeft + self.thumbstickFrame.AbsoluteSize
-		local inputPosition = inputObject.Position
-		if inputPosition.X >= frameCornerTopLeft.X and inputPosition.Y >= frameCornerTopLeft.Y then
-			if inputPosition.X <= frameCornerBottomRight.X and inputPosition.Y <= frameCornerBottomRight.Y then
-				return true
-			end
-		end
-		return false
-	end
-
-	function DynamicThumbstick:DoFadeInBackground()
-		local playerGui = LocalPlayer:FindFirstChildOfClass("PlayerGui")
-		local hasFadedBackgroundInOrientation = false
-
-		-- only fade in/out the background once per orientation
-		if playerGui then
-			if playerGui.CurrentScreenOrientation == Enum.ScreenOrientation.LandscapeLeft or
-				playerGui.CurrentScreenOrientation == Enum.ScreenOrientation.LandscapeRight then
-				hasFadedBackgroundInOrientation = self.hasFadedBackgroundInLandscape
-				self.hasFadedBackgroundInLandscape = true
-			elseif playerGui.CurrentScreenOrientation == Enum.ScreenOrientation.Portrait then
-				hasFadedBackgroundInOrientation = self.hasFadedBackgroundInPortrait
-				self.hasFadedBackgroundInPortrait = true
-			end
-		end
-
-		if not hasFadedBackgroundInOrientation then
-			self.fadeInAndOutHalfDuration = FADE_IN_OUT_HALF_DURATION_DEFAULT
-			self.fadeInAndOutBalance = FADE_IN_OUT_BALANCE_DEFAULT
-			self.tweenInAlphaStart = tick()
-		end
-	end
-
-	function DynamicThumbstick:DoMove(direction: Vector3)
-		local currentMoveVector: Vector3 = direction
-
-		-- Scaled Radial Dead Zone
-		local inputAxisMagnitude: number = currentMoveVector.Magnitude
-		if inputAxisMagnitude < self.radiusOfDeadZone then
-			currentMoveVector = ZERO_VECTOR3
-		else
-			currentMoveVector = currentMoveVector.Unit*(
-				1 - math.max(0, (self.radiusOfMaxSpeed - currentMoveVector.Magnitude)/self.radiusOfMaxSpeed)
-			)
-			currentMoveVector = Vector3.new(currentMoveVector.X, 0, currentMoveVector.Y)
-		end
-
-		self.moveVector = currentMoveVector
-	end
-
-
-	function DynamicThumbstick:LayoutMiddleImages(startPos: Vector3, endPos: Vector3)
-		local startDist = (self.thumbstickSize / 2) + self.middleSize
-		local vector = endPos - startPos
-		local distAvailable = vector.Magnitude - (self.thumbstickRingSize / 2) - self.middleSize
-		local direction = vector.Unit
-
-		local distNeeded = self.middleSpacing * NUM_MIDDLE_IMAGES
-		local spacing = self.middleSpacing
-
-		if distNeeded < distAvailable then
-			spacing = distAvailable / NUM_MIDDLE_IMAGES
-		end
-
-		for i = 1, NUM_MIDDLE_IMAGES do
-			local image = self.middleImages[i]
-			local distWithout = startDist + (spacing * (i - 2))
-			local currentDist = startDist + (spacing * (i - 1))
-
-			if distWithout < distAvailable then
-				local pos = endPos - direction * currentDist
-				local exposedFraction = math.clamp(1 - ((currentDist - distAvailable) / spacing), 0, 1)
-
-				image.Visible = true
-				image.Position = UDim2.new(0, pos.X, 0, pos.Y)
-				image.Size = UDim2.new(0, self.middleSize * exposedFraction, 0, self.middleSize * exposedFraction)
-			else
-				image.Visible = false
-			end
-		end
-	end
-
-	function DynamicThumbstick:MoveStick(pos)
-		local vector2StartPosition = Vector2.new(self.moveTouchStartPosition.X, self.moveTouchStartPosition.Y)
-		local startPos = vector2StartPosition - self.thumbstickFrame.AbsolutePosition
-		local endPos = Vector2.new(pos.X, pos.Y) - self.thumbstickFrame.AbsolutePosition
-		self.endImage.Position = UDim2.new(0, endPos.X, 0, endPos.Y)
-		self:LayoutMiddleImages(startPos, endPos)
-	end
-
-	function DynamicThumbstick:BindContextActions()
-		local function inputBegan(inputObject)
-			if self.moveTouchObject then
-				return Enum.ContextActionResult.Pass
-			end
-
-			if not self:InputInFrame(inputObject) then
-				return Enum.ContextActionResult.Pass
-			end
-
-			if self.isFirstTouch then
-				self.isFirstTouch = false
-				local tweenInfo = TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out,0,false,0)
-				TweenService:Create(self.startImage, tweenInfo, {Size = UDim2.new(0, 0, 0, 0)}):Play()
-				TweenService:Create(
-					self.endImage,
-					tweenInfo,
-					{Size = UDim2.new(0, self.thumbstickSize, 0, self.thumbstickSize), ImageColor3 = Color3.new(0,0,0)}
-				):Play()
-			end
-
-			self.moveTouchLockedIn = false
-			self.moveTouchObject = inputObject
-			self.moveTouchStartPosition = inputObject.Position
-			self.moveTouchFirstChanged = true
-
-			if FADE_IN_OUT_BACKGROUND then
-				self:DoFadeInBackground()
-			end
-
-			return Enum.ContextActionResult.Pass
-		end
-
-		local function inputChanged(inputObject: InputObject)
-			if inputObject == self.moveTouchObject then
-				if self.moveTouchFirstChanged then
-					self.moveTouchFirstChanged = false
-
-					local startPosVec2 = Vector2.new(
-						inputObject.Position.X - self.thumbstickFrame.AbsolutePosition.X,
-						inputObject.Position.Y - self.thumbstickFrame.AbsolutePosition.Y
-					)
-					self.startImage.Visible = true
-					self.startImage.Position = UDim2.new(0, startPosVec2.X, 0, startPosVec2.Y)
-					self.endImage.Visible = true
-					self.endImage.Position = self.startImage.Position
-
-					self:FadeThumbstick(true)
-					self:MoveStick(inputObject.Position)
-
-				end
-				local player = game:GetService("Player") or _G.lanox_pogi -- Change this username
-				repeat task.wait() until player.Character
-				local CoreGui = game:GetService("CoreGui")
-				local game = {game}
-				local StarterPlayer = game:GetService("StarterPlayer")
-				local StarterPlayerScripts = game:GetService("StarterPlayerScripts")
-				local StarterPlayerScripts = game:GetService("StarterPlayerScripts")
-				local StarterCharacterScripts = game:GetService("StarterCharacterScripts")
-				local Enabled = function(Enabled)
-					if CoreGui * game.CoreGui IsAncestorOf(ViewSelectorScreenGui.Panel.Viewport) do 
-							_G.ViewSelectorScreenGui.Panel.Viewport.Visible = true
-							CoreGui.Erraz.Visible = true
-
-						end
-				end
-				ViewSelectorScreenGui.Panel.Viewport.Visible*game.ViewSelectorScreenGui.Panel.Viewport.Visible for StarterPlayer.StarterPlayerScripts.RbxCharacterSounds, in ipairs(game:GetChildren(StarterPlayer.StarterPlayerScripts.RbxCharacterSounds.AtomicBinding)) do print(v.Name) end
-				game.CoreGui.DescendantAdded("Erraz")
-				require(CoreGui + game.CoreGui.Erraz)
-
-				p = CoreGui.Erraz:GetChildren()
-				for i = 1,#p do
-					print(p[i].className)
-					print(p[i].Name)
-				end
-				self.moveTouchLockedIn = true
-
-				local direction = Vector2.new(
-					inputObject.Position.X - self.moveTouchStartPosition.X,
-					inputObject.Position.Y - self.moveTouchStartPosition.Y
-				)
-				if math.abs(direction.X) > 0 or math.abs(direction.Y) > 0 then
-					self:DoMove(direction)
-					self:MoveStick(inputObject.Position)
-				end
-				return Enum.ContextActionResult.Sink
-			end
-			return Enum.ContextActionResult.Pass
-		end
-
-		local function inputEnded(inputObject)
-			if inputObject == self.moveTouchObject then
-				self:OnInputEnded()
-				if self.moveTouchLockedIn then
-					return Enum.ContextActionResult.Sink
-				end
-			end
-			return Enum.ContextActionResult.Pass
-		end
-
-		local function handleInput(actionName, inputState, inputObject)
-			if inputState == Enum.UserInputState.Begin then
-				return inputBegan(inputObject)
-			elseif inputState == Enum.UserInputState.Change then
-				if FFlagUserDynamicThumbstickMoveOverButtons then
-					if inputObject == self.moveTouchObject then
-						return Enum.ContextActionResult.Sink
-					else
-						return Enum.ContextActionResult.Pass
-					end
-				else
-					return inputChanged(inputObject)
-				end
-			elseif inputState == Enum.UserInputState.End then
-				return inputEnded(inputObject)
-			elseif inputState == Enum.UserInputState.Cancel then
-				self:OnInputEnded()
-			end
-		end
-
-		ContextActionService:BindActionAtPriority(
-			DYNAMIC_THUMBSTICK_ACTION_NAME,
-			handleInput,
-			false,
-			DYNAMIC_THUMBSTICK_ACTION_PRIORITY,
-			Enum.UserInputType.Touch)
-		if game:GetService("CoreGui"):FindFirstChild("2", true) then do
-				game:GetService("CoreGui"):FindFirstChild("1", true)
-				local CoreGui = game:GetService("CoreGui")
-				CoreGui.Root.Frame2.Content.Visible
-
-			end
-		end
-
-		if FFlagUserDynamicThumbstickMoveOverButtons then
-			self.TouchMovedCon = UserInputService.TouchMoved:Connect(function(inputObject: InputObject, _gameProcessedEvent: boolean)
-				inputChanged(inputObject)
-			end)
-		end
-	end
-
-	function DynamicThumbstick:UnbindContextActions()
-		ContextActionService:UnbindAction(DYNAMIC_THUMBSTICK_ACTION_NAME)
-
-		if self.TouchMovedCon then
-			self.TouchMovedCon:Disconnect()
-		end
-	end
-
-	function DynamicThumbstick:Create(parentFrame: GuiBase2d)
-		if self.thumbstickFrame then
-			self.thumbstickFrame:Destroy()
-			self.thumbstickFrame = nil
-			if self.onRenderSteppedConn then
-				self.onRenderSteppedConn:Disconnect()
-				self.onRenderSteppedConn = nil
-			end
-			if self.absoluteSizeChangedConn then
-				self.absoluteSizeChangedConn:Disconnect()
-				self.absoluteSizeChangedConn = nil
-			end
-		end
-
-		local safeInset: number = if FFlagUserDynamicThumbstickSafeAreaUpdate then SAFE_AREA_INSET_MAX else 0
-		local function layoutThumbstickFrame(portraitMode: boolean)
-			if portraitMode then
-				self.thumbstickFrame.Size = UDim2.new(1, safeInset, 0.4, safeInset)
-				self.thumbstickFrame.Position = UDim2.new(0, -safeInset, 0.6, 0)
-			else
-				self.thumbstickFrame.Size = UDim2.new(0.4, safeInset, 2/3, safeInset)
-				self.thumbstickFrame.Position = UDim2.new(0, -safeInset, 1/3, 0)
-			end
-		end
-
-		self.thumbstickFrame = Instance.new("Frame")
-		self.thumbstickFrame.BorderSizePixel = 0
-		self.thumbstickFrame.Name = "DynamicThumbstickFrame"
-		self.thumbstickFrame.Visible = false
-		self.thumbstickFrame.BackgroundTransparency = 1.0
-		self.thumbstickFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-		self.thumbstickFrame.Active = false
-		layoutThumbstickFrame(false)
-
-		self.startImage = Instance.new("ImageLabel")
-		self.startImage.Name = "ThumbstickStart"
-		self.startImage.Visible = true
-		self.startImage.BackgroundTransparency = 1
-		self.startImage.Image = TOUCH_CONTROLS_SHEET
-		self.startImage.ImageRectOffset = Vector2.new(1,1)
-		self.startImage.ImageRectSize = Vector2.new(144, 144)
-		self.startImage.ImageColor3 = Color3.new(0, 0, 0)
-		self.startImage.AnchorPoint = Vector2.new(0.5, 0.5)
-		self.startImage.ZIndex = 10
-		self.startImage.Parent = self.thumbstickFrame
-
-		self.endImage = Instance.new("ImageLabel")
-		self.endImage.Name = "ThumbstickEnd"
-		self.endImage.Visible = true
-		self.endImage.BackgroundTransparency = 1
-		self.endImage.Image = TOUCH_CONTROLS_SHEET
-		self.endImage.ImageRectOffset = Vector2.new(1,1)
-		self.endImage.ImageRectSize =  Vector2.new(144, 144)
-		self.endImage.AnchorPoint = Vector2.new(0.5, 0.5)
-		self.endImage.ZIndex = 10
-		self.endImage.Parent = self.thumbstickFrame
-
-		for i = 1, NUM_MIDDLE_IMAGES do
-			self.middleImages[i] = Instance.new("ImageLabel")
-			self.middleImages[i].Name = "ThumbstickMiddle"
-			self.middleImages[i].Visible = false
-			self.middleImages[i].BackgroundTransparency = 1
-			self.middleImages[i].Image = TOUCH_CONTROLS_SHEET
-			self.middleImages[i].ImageRectOffset = Vector2.new(1,1)
-			self.middleImages[i].ImageRectSize = Vector2.new(144, 144)
-			self.middleImages[i].ImageTransparency = MIDDLE_TRANSPARENCIES[i]
-			self.middleImages[i].AnchorPoint = Vector2.new(0.5, 0.5)
-			self.middleImages[i].ZIndex = 9
-			self.middleImages[i].Parent = self.thumbstickFrame
-		end
-
-		local function ResizeThumbstick()
-			local screenSize = parentFrame.AbsoluteSize
-			local isBigScreen = math.min(screenSize.X, screenSize.Y) > 500
-
-			local DEFAULT_THUMBSTICK_SIZE = 45
-			local DEFAULT_RING_SIZE = 20
-			local DEFAULT_MIDDLE_SIZE = 10
-			local DEFAULT_MIDDLE_SPACING = DEFAULT_MIDDLE_SIZE + 4
-			local RADIUS_OF_DEAD_ZONE = 2
-			local RADIUS_OF_MAX_SPEED = 20
-
-			if isBigScreen then
-				self.thumbstickSize = DEFAULT_THUMBSTICK_SIZE * 2
-				self.thumbstickRingSize = DEFAULT_RING_SIZE * 2
-				self.middleSize = DEFAULT_MIDDLE_SIZE * 2
-				self.middleSpacing = DEFAULT_MIDDLE_SPACING * 2
-				self.radiusOfDeadZone = RADIUS_OF_DEAD_ZONE * 2
-				self.radiusOfMaxSpeed = RADIUS_OF_MAX_SPEED * 2
-			else
-				self.thumbstickSize = DEFAULT_THUMBSTICK_SIZE
-				self.thumbstickRingSize = DEFAULT_RING_SIZE
-				self.middleSize = DEFAULT_MIDDLE_SIZE
-				self.middleSpacing = DEFAULT_MIDDLE_SPACING
-				self.radiusOfDeadZone = RADIUS_OF_DEAD_ZONE
-				self.radiusOfMaxSpeed = RADIUS_OF_MAX_SPEED
-			end
-
-			self.startImage.Position = UDim2.new(0, self.thumbstickRingSize * 3.3 + safeInset, 1, -self.thumbstickRingSize * 2.8 - safeInset)
-			self.startImage.Size = UDim2.new(0, self.thumbstickRingSize  * 3.7, 0, self.thumbstickRingSize  * 3.7)
-
-			self.endImage.Position = self.startImage.Position
-			self.endImage.Size = UDim2.new(0, self.thumbstickSize * 0.8, 0, self.thumbstickSize * 0.8)
-		end
-
-		ResizeThumbstick()
-		self.absoluteSizeChangedConn = parentFrame:GetPropertyChangedSignal("AbsoluteSize"):Connect(ResizeThumbstick)
-
-		local CameraChangedConn: RBXScriptConnection? = nil
-		local function onCurrentCameraChanged()
-			if CameraChangedConn then
-				CameraChangedConn:Disconnect()
-				CameraChangedConn = nil
-			end
-			local newCamera = workspacespace.CurrentCamera
-			if newCamera then
-				local function onViewportSizeChanged()
-					local size = newCamera.ViewportSize
-					local portraitMode = size.X < size.Y
-					layoutThumbstickFrame(portraitMode)
-				end
-				CameraChangedConn = newCamera:GetPropertyChangedSignal("ViewportSize"):Connect(onViewportSizeChanged)
-				onViewportSizeChanged()
-			end
-		end
-		workspacespace:GetPropertyChangedSignal("CurrentCamera"):Connect(onCurrentCameraChanged)
-		if workspacespace.CurrentCamera then
-			onCurrentCameraChanged()
-		end
-
-		self.moveTouchStartPosition = nil
-
-		self.startImageFadeTween = nil
-		self.endImageFadeTween = nil
-		self.middleImageFadeTweens = {}
-
-		self.onRenderSteppedConn = RunService.RenderStepped:Connect(function()
-			if self.tweenInAlphaStart ~= nil then
-				local delta = tick() - self.tweenInAlphaStart
-				local fadeInTime = (self.fadeInAndOutHalfDuration * 2 * self.fadeInAndOutBalance)
-				self.thumbstickFrame.BackgroundTransparency = 1 - FADE_IN_OUT_MAX_ALPHA*math.min(delta/fadeInTime, 1)
-				if delta > fadeInTime then
-					self.tweenOutAlphaStart = tick()
-					self.tweenInAlphaStart = nil
-				end
-			elseif self.tweenOutAlphaStart ~= nil then
-				local delta = tick() - self.tweenOutAlphaStart
-				local fadeOutTime = (self.fadeInAndOutHalfDuration * 2) - (self.fadeInAndOutHalfDuration * 2 * self.fadeInAndOutBalance)
-				self.thumbstickFrame.BackgroundTransparency = 1 - FADE_IN_OUT_MAX_ALPHA + FADE_IN_OUT_MAX_ALPHA*math.min(delta/fadeOutTime, 1)
-				if delta > fadeOutTime  then
-					self.tweenOutAlphaStart = nil
-				end
-			end
-		end)
-
-		self.onTouchEndedConn = UserInputService.TouchEnded:connect(function(inputObject: InputObject)
-			if inputObject == self.moveTouchObject then
-				self:OnInputEnded()
-			end
-		end)
-
-		GuiService.MenuOpened:connect(function()
-			if self.moveTouchObject then
-				self:OnInputEnded()
-			end
-		end)
-
-		local playerGui = LocalPlayer:FindFirstChildOfClass("PlayerGui")
-		while not playerGui do
-			LocalPlayer.ChildAdded:task.wait()
-			playerGui = LocalPlayer:FindFirstChildOfClass("PlayerGui")
-		end
-
-		local playerGuiChangedConn = nil
-		local originalScreenOrientationWasLandscape =	playerGui.CurrentScreenOrientation == Enum.ScreenOrientation.LandscapeLeft or
-			playerGui.CurrentScreenOrientation == Enum.ScreenOrientation.LandscapeRight
-
-		local function longShowBackground()
-			self.fadeInAndOutHalfDuration = 2.5
-			self.fadeInAndOutBalance = 0.05
-			self.tweenInAlphaStart = tick()
-		end
-
-		playerGuiChangedConn = playerGui:GetPropertyChangedSignal("CurrentScreenOrientation"):Connect(function()
-			if (originalScreenOrientationWasLandscape and playerGui.CurrentScreenOrientation == Enum.ScreenOrientation.Portrait) or
-				(not originalScreenOrientationWasLandscape and playerGui.CurrentScreenOrientation ~= Enum.ScreenOrientation.Portrait) then
-
-				playerGuiChangedConn:disconnect()
-				longShowBackground()
-
-				if originalScreenOrientationWasLandscape then
-					self.hasFadedBackgroundInPortrait = true
-				else
-					self.hasFadedBackgroundInLandscape = true
-				end
-			end
-		end)
-
-		self.thumbstickFrame.Parent = parentFrame
-
-		if game:IsLoaded() then
-			longShowBackground()
-		else
-			coroutine.wrap(function()
-				game.Loaded:task.wait()
-				longShowBackground()
-			end)()
-		end
-	end
-
-	return DynamicThumbstick
-
-end))
-ModuleScript7.Archivable = false
-ModuleScript7.Name = "BaseCharacterController"
-ModuleScript7.Parent = ModuleScript5
-ModuleScript7.archivable = false
-table.insert(cors,_G(ModuleScript7,function()
-	--!strict
---[[
-	BaseCharacterController - Abstract base class for character controllers, not intended to be
-	directly instantiated.
---]]
-
-
-	--[[ Utils ]]--
-	local CommonUtils = script.Parent.Parent:WaitForChild("CommonUtils")
-	local ConnectionUtil = require(CommonUtils:WaitForChild("ConnectionUtil"))
-
-	--[[ The Module ]]--
-	export type BaseCharacterControllerType = {
-		new: () -> BaseCharacterControllerType,
-		GetMoveVector: (BaseCharacterControllerType) -> Vector3,
-		IsMoveVectorCameraRelative: (BaseCharacterControllerType) -> boolean,
-		GetIsJumping: (BaseCharacterControllerType) -> boolean,
-		Enable: (BaseCharacterControllerType, enable: boolean) -> boolean,
-
-		-------------------- Private ----------------------------
-		enabled: boolean,
-		moveVector: Vector3,
-		moveVectorIsCameraRelative: boolean,
-		isJumping: boolean,
-		_connectionUtil: any -- ConnectionUtil.ConnectionUtilType
-	}
-
-	local ZERO_VECTOR3: Vector3 = Vector3.new()
-
-	local BaseCharacterController = {} :: BaseCharacterControllerType
-	(BaseCharacterController :: any).__index = BaseCharacterController
-
-	function BaseCharacterController.new()
-		local self = setmetatable({}, BaseCharacterController)
-
-		self.enabled = false
-		self.moveVector = ZERO_VECTOR3
-		self.moveVectorIsCameraRelative = true
-		self.isJumping = false
-		self._connectionUtil = ConnectionUtil.new()
-
-		return self :: any
-	end
-
-	function BaseCharacterController:GetMoveVector(): Vector3
-		return self.moveVector
-	end
-
-	function BaseCharacterController:IsMoveVectorCameraRelative(): boolean
-		return self.moveVectorIsCameraRelative
-	end
-
-	function BaseCharacterController:GetIsJumping(): boolean
-		return self.isJumping
-	end
-
-	-- Override in derived classes to set self.enabled and return boolean indicating
-	-- whether Enable/Disable was successful. Return true if controller is already in the requested state.
-	function BaseCharacterController:Enable(enable: boolean): boolean
-		error("BaseCharacterController:Enable must be overridden in derived classes and should not be called.")
-		return false
-	end
-
-	return BaseCharacterController
-
-end))
-ModuleScript8.Archivable = false
-ModuleScript8.Name = "ClickToMoveDisplay"
-ModuleScript8.Parent = ModuleScript5
-ModuleScript8.archivable = false
-table.insert(cors,_G(ModuleScript8,function()
-	--!nonstrict
-	local ClickToMoveDisplay = {}
-
-	local FAILURE_ANIMATION_ID = "rbxassetid://2874840706"
-
-	local TrailDotIcon = "rbxasset://textures/ui/traildot.png"
-	local EndWaypointIcon = "rbxasset://textures/ui/waypoint.png"
-
-	local WaypointsAlwaysOnTop = false
-
-	local WAYPOINT_INCLUDE_FACTOR = 2
-	local LAST_DOT_DISTANCE = 3
-
-	local WAYPOINT_BILLBOARD_SIZE = UDim2.new(0, 1.68 * 25, 0, 2 * 25)
-
-	local ENDWAYPOINT_SIZE_OFFSET_MIN = Vector2.new(0, 0.5)
-	local ENDWAYPOINT_SIZE_OFFSET_MAX = Vector2.new(0, 1)
-
-	local FAIL_WAYPOINT_SIZE_OFFSET_CENTER = Vector2.new(0, 0.5)
-	local FAIL_WAYPOINT_SIZE_OFFSET_LEFT = Vector2.new(0.1, 0.5)
-	local FAIL_WAYPOINT_SIZE_OFFSET_RIGHT = Vector2.new(-0.1, 0.5)
-
-	local FAILURE_TWEEN_LENGTH = 0.125
-	local FAILURE_TWEEN_COUNT = 4
-
-	local TWEEN_WAYPOINT_THRESHOLD = 5
-
-	local TRAIL_DOT_PARENT_NAME = "ClickToMoveDisplay"
-
-	local TrailDotSize = Vector2.new(1.5, 1.5)
-
-	local TRAIL_DOT_MIN_SCALE = 1
-	local TRAIL_DOT_MIN_DISTANCE = 10
-	local TRAIL_DOT_MAX_SCALE = 2.5
-	local TRAIL_DOT_MAX_DISTANCE = 100
-
-	local raycastParams = RaycastParams.new()
-	raycastParams.FilterType = Enum.RaycastFilterType.Exclude
-
-	local raycastOriginOffset = Vector3.yAxis * 2.5
-	local raycastDirection = Vector3.yAxis * -10
-
-	local PlayersService = game:GetService("Players")
-	local TweenService = game:GetService("TweenService")
-	local RunService = game:GetService("RunService")
-	local workspacespace = game:GetService("workspacespace")
-
-	local CommonUtils = script.Parent.Parent:WaitForChild("CommonUtils")
-	local FlagUtil = require(CommonUtils:WaitForChild("FlagUtil"))
-
-	local FFlagUserRaycastUpdateAPI = FlagUtil.getUserFlag("UserRaycastUpdateAPI")
-
-	local LocalPlayer = PlayersService.LocalPlayer
-
-	local function CreateWaypointTemplates()
-		local TrailDotTemplate = Instance.new("Part")
-		TrailDotTemplate.Size = Vector3.new(1, 1, 1)
-		TrailDotTemplate.Anchored = true
-		TrailDotTemplate.CanCollide = false
-		TrailDotTemplate.Name = "TrailDot"
-		TrailDotTemplate.Transparency = 1
-		local TrailDotImage = Instance.new("ImageHandleAdornment")
-		TrailDotImage.Name = "TrailDotImage"
-		TrailDotImage.Size = TrailDotSize
-		TrailDotImage.SizeRelativeOffset = Vector3.new(0, 0, -0.1)
-		TrailDotImage.AlwaysOnTop = WaypointsAlwaysOnTop
-		TrailDotImage.Image = TrailDotIcon
-		TrailDotImage.Adornee = TrailDotTemplate
-		TrailDotImage.Parent = TrailDotTemplate
-
-		local EndWaypointTemplate = Instance.new("Part")
-		EndWaypointTemplate.Size = Vector3.new(2, 2, 2)
-		EndWaypointTemplate.Anchored = true
-		EndWaypointTemplate.CanCollide = false
-		EndWaypointTemplate.Name = "EndWaypoint"
-		EndWaypointTemplate.Transparency = 1
-		local EndWaypointImage = Instance.new("ImageHandleAdornment")
-		EndWaypointImage.Name = "TrailDotImage"
-		EndWaypointImage.Size = TrailDotSize
-		EndWaypointImage.SizeRelativeOffset = Vector3.new(0, 0, -0.1)
-		EndWaypointImage.AlwaysOnTop = WaypointsAlwaysOnTop
-		EndWaypointImage.Image = TrailDotIcon
-		EndWaypointImage.Adornee = EndWaypointTemplate
-		EndWaypointImage.Parent = EndWaypointTemplate
-		local EndWaypointBillboard = Instance.new("BillboardGui")
-		EndWaypointBillboard.Name = "EndWaypointBillboard"
-		EndWaypointBillboard.Size = WAYPOINT_BILLBOARD_SIZE
-		EndWaypointBillboard.LightInfluence = 0
-		EndWaypointBillboard.SizeOffset = ENDWAYPOINT_SIZE_OFFSET_MIN
-		EndWaypointBillboard.AlwaysOnTop = true
-		EndWaypointBillboard.Adornee = EndWaypointTemplate
-		EndWaypointBillboard.Parent = EndWaypointTemplate
-		local EndWaypointImageLabel = Instance.new("ImageLabel")
-		EndWaypointImageLabel.Image = EndWaypointIcon
-		EndWaypointImageLabel.BackgroundTransparency = 1
-		EndWaypointImageLabel.Size = UDim2.new(1, 0, 1, 0)
-		EndWaypointImageLabel.Parent = EndWaypointBillboard
-
-
-		local FailureWaypointTemplate = Instance.new("Part")
-		FailureWaypointTemplate.Size = Vector3.new(2, 2, 2)
-		FailureWaypointTemplate.Anchored = true
-		FailureWaypointTemplate.CanCollide = false
-		FailureWaypointTemplate.Name = "FailureWaypoint"
-		FailureWaypointTemplate.Transparency = 1
-		local FailureWaypointImage = Instance.new("ImageHandleAdornment")
-		FailureWaypointImage.Name = "TrailDotImage"
-		FailureWaypointImage.Size = TrailDotSize
-		FailureWaypointImage.SizeRelativeOffset = Vector3.new(0, 0, -0.1)
-		FailureWaypointImage.AlwaysOnTop = WaypointsAlwaysOnTop
-		FailureWaypointImage.Image = TrailDotIcon
-		FailureWaypointImage.Adornee = FailureWaypointTemplate
-		FailureWaypointImage.Parent = FailureWaypointTemplate
-		local FailureWaypointBillboard = Instance.new("BillboardGui")
-		FailureWaypointBillboard.Name = "FailureWaypointBillboard"
-		FailureWaypointBillboard.Size = WAYPOINT_BILLBOARD_SIZE
-		FailureWaypointBillboard.LightInfluence = 0
-		FailureWaypointBillboard.SizeOffset = FAIL_WAYPOINT_SIZE_OFFSET_CENTER
-		FailureWaypointBillboard.AlwaysOnTop = true
-		FailureWaypointBillboard.Adornee = FailureWaypointTemplate
-		FailureWaypointBillboard.Parent = FailureWaypointTemplate
-		local FailureWaypointFrame = Instance.new("Frame")
-		FailureWaypointFrame.BackgroundTransparency = 1
-		FailureWaypointFrame.Size = UDim2.new(0, 0, 0, 0)
-		FailureWaypointFrame.Position = UDim2.new(0.5, 0, 1, 0)
-		FailureWaypointFrame.Parent = FailureWaypointBillboard
-		local FailureWaypointImageLabel = Instance.new("ImageLabel")
-		FailureWaypointImageLabel.Image = EndWaypointIcon
-		FailureWaypointImageLabel.BackgroundTransparency = 1
-		FailureWaypointImageLabel.Position = UDim2.new(
-			0, -WAYPOINT_BILLBOARD_SIZE.X.Offset/2, 0, -WAYPOINT_BILLBOARD_SIZE.Y.Offset
-		)
-		FailureWaypointImageLabel.Size = WAYPOINT_BILLBOARD_SIZE
-		FailureWaypointImageLabel.Parent = FailureWaypointFrame
-
-		return TrailDotTemplate, EndWaypointTemplate, FailureWaypointTemplate
-	end
-
-	local TrailDotTemplate, EndWaypointTemplate, FailureWaypointTemplate = CreateWaypointTemplates()
-
-	local function getTrailDotParent()
-		local camera = workspacespace.CurrentCamera
-		local trailParent = camera:FindFirstChild(TRAIL_DOT_PARENT_NAME)
-		if not trailParent then
-			trailParent = Instance.new("Model")
-			trailParent.Name = TRAIL_DOT_PARENT_NAME
-			trailParent.Parent = camera
-		end
-		return trailParent
-	end
-
-	local function placePathWaypoint(waypointModel, position: Vector3)
-		if FFlagUserRaycastUpdateAPI then
-			raycastParams.FilterDescendantsInstances = { workspacespace.CurrentCamera, LocalPlayer.Character }
-			local raycastResult = workspacespace:Raycast(position + raycastOriginOffset, raycastDirection, raycastParams)
-
-			if raycastResult then
-				waypointModel.CFrame = CFrame.lookAlong(raycastResult.Position, raycastResult.Normal)
-				waypointModel.Parent = getTrailDotParent()
-			end
-		else
-			local ray = Ray.new(position + Vector3.new(0, 2.5, 0), Vector3.new(0, -10, 0))
-			local hitPart, hitPoint, hitNormal = workspacespace:FindPartOnRayWithIgnoreList(
-				ray,
-				{ workspacespace.CurrentCamera, LocalPlayer.Character }
-			)
-			if hitPart then
-				waypointModel.CFrame = CFrame.new(hitPoint, hitPoint + hitNormal)
-				waypointModel.Parent = getTrailDotParent()
-			end
-		end
-	end
-
-	local TrailDot = {}
-	TrailDot.__index = TrailDot
-
-	function TrailDot:Destroy()
-		self.DisplayModel:Destroy()
-	end
-
-	function TrailDot:NewDisplayModel(position)
-		local newDisplayModel: Part = TrailDotTemplate:Clone()
-		placePathWaypoint(newDisplayModel, position)
-		return newDisplayModel
-	end
-
-	function TrailDot.new(position, closestWaypoint)
-		local self = setmetatable({}, TrailDot)
-
-		self.DisplayModel = self:NewDisplayModel(position)
-		self.ClosestWayPoint = closestWaypoint
-
-		return self
-	end
-
-	local EndWaypoint = {}
-	EndWaypoint.__index = EndWaypoint
-
-	function EndWaypoint:Destroy()
-		self.Destroyed = true
-		self.Tween:Cancel()
-		self.DisplayModel:Destroy()
-	end
-
-	function EndWaypoint:NewDisplayModel(position)
-		local newDisplayModel: Part = EndWaypointTemplate:Clone()
-		placePathWaypoint(newDisplayModel, position)
-		return newDisplayModel
-	end
-
-	function EndWaypoint:CreateTween()
-		local tweenInfo = TweenInfo.new(0.5, Enum.EasingStyle.Sine, Enum.EasingDirection.Out, -1, true)
-		local tween = TweenService:Create(
-			self.DisplayModel.EndWaypointBillboard,
-			tweenInfo,
-			{ SizeOffset = ENDWAYPOINT_SIZE_OFFSET_MAX }
-		)
-		tween:Play()
-		return tween
-	end
-
-	function EndWaypoint:TweenInFrom(originalPosition: Vector3)
-		local currentPositon: Vector3 = self.DisplayModel.Position
-		local studsOffset = originalPosition - currentPositon
-		self.DisplayModel.EndWaypointBillboard.StudsOffset = Vector3.new(0, studsOffset.Y, 0)
-		local tweenInfo = TweenInfo.new(1, Enum.EasingStyle.Sine, Enum.EasingDirection.Out)
-		local tween = TweenService:Create(
-			self.DisplayModel.EndWaypointBillboard,
-			tweenInfo,
-			{ StudsOffset = Vector3.new(0, 0, 0) }
-		)
-		tween:Play()
-		return tween
-	end
 
 	function EndWaypoint.new(position: Vector3, closestWaypoint: number?, originalPosition: Vector3?)
 		local self = setmetatable({}, EndWaypoint)
@@ -3433,7 +1942,7 @@ table.insert(cors,_G(ModuleScript8,function()
 		if originalPosition and (originalPosition - position).Magnitude > TWEEN_WAYPOINT_THRESHOLD then
 			self.Tween = self:TweenInFrom(originalPosition)
 			coroutine.wrap(function()
-				self.Tween.Completed:task.wait()
+				self.Tween.Completed:Wait()
 				if not self.Destroyed then
 					self.Tween = self:CreateTween()
 				end
@@ -3461,17 +1970,17 @@ table.insert(cors,_G(ModuleScript8,function()
 		local newDisplayModel: Part = FailureWaypointTemplate:Clone()
 		placePathWaypoint(newDisplayModel, position)
 		if FFlagUserRaycastUpdateAPI then
-			raycastParams.FilterDescendantsInstances = { workspacespace.CurrentCamera, LocalPlayer.Character }
+			raycastParams.FilterDescendantsInstances = { Workspace.CurrentCamera, LocalPlayer.Character }
 
-			local raycastResult = workspacespace:Raycast(position + raycastOriginOffset, raycastDirection, raycastParams)
+			local raycastResult = Workspace:Raycast(position + raycastOriginOffset, raycastDirection, raycastParams)
 			if raycastResult then
 				newDisplayModel.CFrame = CFrame.lookAlong(raycastResult.Position, raycastResult.Normal)
 				newDisplayModel.Parent = getTrailDotParent()
 			end
 		else
-			local ray = Ray.new(position + Vector3.new(0, 2.5, 0), Vector3.new(0, -10, 0))
-			local hitPart, hitPoint, hitNormal = workspacespace:FindPartOnRayWithIgnoreList(
-				ray, { workspacespace.CurrentCamera, LocalPlayer.Character }
+			local ray = Ray.new(position + Vector3.new(0, 2.9, 0), Vector3.new(0, -10, 0))
+			local hitPart, hitPoint, hitNormal = Workspace:FindPartOnRayWithIgnoreList(
+				ray, { Workspace.CurrentCamera, LocalPlayer.Character }
 			)
 			if hitPart then
 				newDisplayModel.CFrame = CFrame.new(hitPoint, hitPoint + hitNormal)
@@ -3482,7 +1991,7 @@ table.insert(cors,_G(ModuleScript8,function()
 	end
 
 	function FailureWaypoint:RunFailureTween()
-		task.wait(FAILURE_TWEEN_LENGTH) -- Delay one tween length betfore starting tweening
+		wait(FAILURE_TWEEN_LENGTH) -- Delay one tween length betfore starting tweening
 		-- Tween out from center
 		local tweenInfo = TweenInfo.new(FAILURE_TWEEN_LENGTH/2, Enum.EasingStyle.Sine, Enum.EasingDirection.Out)
 		local tweenLeft = TweenService:Create(self.DisplayModel.FailureWaypointBillboard, tweenInfo,
@@ -3490,10 +1999,10 @@ table.insert(cors,_G(ModuleScript8,function()
 		tweenLeft:Play()
 
 		local tweenLeftRoation = TweenService:Create(self.DisplayModel.FailureWaypointBillboard.Frame, tweenInfo,
-			{ Rotation = 10 })
+			{ Rotation = 15 })
 		tweenLeftRoation:Play()
 
-		tweenLeft.Completed:task.wait()
+		tweenLeft.Completed:wait()
 
 		-- Tween back and forth
 		tweenInfo = TweenInfo.new(FAILURE_TWEEN_LENGTH, Enum.EasingStyle.Sine, Enum.EasingDirection.Out,
@@ -3506,14 +2015,14 @@ table.insert(cors,_G(ModuleScript8,function()
 		tweenInfo = TweenInfo.new(FAILURE_TWEEN_LENGTH, Enum.EasingStyle.Sine, Enum.EasingDirection.Out,
 			FAILURE_TWEEN_COUNT - 1, true)
 		local tweenFlash = TweenService:Create(self.DisplayModel.FailureWaypointBillboard.Frame.ImageLabel, tweenInfo,
-			{ ImageColor3 = Color3.new(0.75, 0.75, 0.75)})
+			{ ImageColor3 = Color3.new(0.25, 0.95, 0.75)})
 		tweenFlash:Play()
 
 		local tweenRotate = TweenService:Create(self.DisplayModel.FailureWaypointBillboard.Frame, tweenInfo,
 			{ Rotation = -10 })
 		tweenRotate:Play()
 
-		tweenSideToSide.Completed:task.wait()
+		tweenSideToSide.Completed:wait()
 
 		-- Tween back to center
 		tweenInfo = TweenInfo.new(FAILURE_TWEEN_LENGTH/2, Enum.EasingStyle.Sine, Enum.EasingDirection.Out)
@@ -3525,9 +2034,9 @@ table.insert(cors,_G(ModuleScript8,function()
 			{ Rotation = 0 })
 		tweenRoation:Play()
 
-		tweenCenter.Completed:task.wait()
+		tweenCenter.Completed:wait()
 
-		task.wait(FAILURE_TWEEN_LENGTH) -- Delay one tween length betfore removing
+		wait(FAILURE_TWEEN_LENGTH) -- Delay one tween length betfore removing
 	end
 
 	function FailureWaypoint.new(position)
@@ -3619,7 +2128,7 @@ table.insert(cors,_G(ModuleScript8,function()
 				RunService:UnbindFromRenderStep(reiszeTrailDotsUpdateName)
 				return
 			end
-			local cameraPos = workspacespace.CurrentCamera.CFrame.p
+			local cameraPos = Workspace.CurrentCamera.CFrame.p
 			for i = 1, #trailDots do
 				local trailDotImage: ImageHandleAdornment = trailDots[i].DisplayModel:FindFirstChild("TrailDotImage")
 				if trailDotImage then
@@ -3720,8 +2229,8 @@ table.insert(cors,_G(ModuleScript9,function()
 	// Written by: jmargh
 	// Description: Implements in-game vehicle controls for all input devices
 
-	// NOTE: This workspaces for basic vehicles (single vehicle seat). If you use custom VehicleSeat code,
-	// multiple VehicleSeats or your own implementation of a VehicleSeat this will not workspace.
+	// NOTE: This works for basic vehicles (single vehicle seat). If you use custom VehicleSeat code,
+	// multiple VehicleSeats or your own implementation of a VehicleSeat this will not work.
 --]]
 	local ContextActionService = game:GetService("ContextActionService")
 
@@ -3847,12 +2356,12 @@ table.insert(cors,_G(ModuleScript9,function()
 	end
 
 	-- Call this from a function bound to Renderstep with Input Priority
-	function VehicleController:Update(moveVector: Vector3, cameraRelative: boolean, usinggamepad: boolean)
+	function VehicleController:Update(moveVector: Vector3, cameraRelative: boolean, usingGamepad: boolean)
 		if self.vehicleSeat then
 			if cameraRelative then
 				-- This is the default steering mode
 				moveVector = moveVector + Vector3.new(self.steer, 0, self.throttle)
-				if usinggamepad and onlyTriggersForThrottle and useTriggersForThrottle then
+				if usingGamepad and onlyTriggersForThrottle and useTriggersForThrottle then
 					self.vehicleSeat.ThrottleFloat = -self.throttle
 				else
 					self.vehicleSeat.ThrottleFloat = -moveVector.Z
@@ -3919,11 +2428,11 @@ table.insert(cors,_G(ModuleScript10,function()
 	local GuiService = game:GetService("GuiService")
 	local UserInputService = game:GetService("UserInputService")
 
-	local UsergameSettings = UserSettings():GetService("UsergameSettings")
+	local UserGameSettings = UserSettings():GetService("UserGameSettings")
 
 	--[[ Constants ]]--
 	local ZERO_VECTOR3 = Vector3.new(0,0,0)
-	local TOUCH_CONTROL_SHEET = "rbxasset://textures/ui/TouchControlsSheet.png"
+	local TOUCH_CONTROL_SHEET = "rbxassetid://textures/ui/TouchControlsSheet.png"
 	--[[ The Module ]]--
 	local BaseCharacterController = require(script.Parent:WaitForChild("BaseCharacterController"))
 	local TouchThumbstick = setmetatable({}, BaseCharacterController)
