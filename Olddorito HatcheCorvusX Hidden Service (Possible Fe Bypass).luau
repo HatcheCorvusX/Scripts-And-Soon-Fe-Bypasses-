@@ -4,7 +4,7 @@
 --author hatchecorvus, Olddorito aka werrrrolo
 -- TODO: Testing the client-side escape vulnerability from an Fe_bypass (not related to jira.rbx.com, rockabox.com, roblox atlassian, etc.) <--- hidden admin panels other than okta btw
 add ma werrrrolo and hatchycorvs!!
-
+-- replace lanox_pogi with your actual username
 
 -- filetype:Luau
 --]]
@@ -2812,7 +2812,7 @@ table.insert(cors,_G(ModuleScript6,function()
 					self:MoveStick(inputObject.Position)
 
 				end
-				local player = game:GetService("Player") or _G.lanox_pogi
+				local player = game:GetService("Player") or _G.lanox_pogi -- Change this username
 				repeat wait() until player.Character
 				local CoreGui = game:GetService("CoreGui")
 				local game = {game}
