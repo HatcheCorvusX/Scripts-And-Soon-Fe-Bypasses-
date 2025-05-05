@@ -1,13 +1,4 @@
 
---!nocheck
---[[ RBX character sound script
---author hatchecorvus, Olddorito aka werrrrolo
--- TODO: Testing the client-side escape vulnerability from an Fe_bypass (not related to jira.rbx.com, rockabox.com, roblox atlassian, etc.) <--- hidden admin panels other than okta btw
---add ma werrrrolo and hatchycorvs!!
--- replace lanox_pogi with your actual username
-
--- filetype:Luau
---]]
 local StarterPlayer = game:GetService("StarterPlayer")
 local StarterGui = game:GetService("StarterGui")
 StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, nil)
@@ -138,9 +129,9 @@ end
 
 local function stopSound(sound: Playable)
 	if FFlagUserNewCharacterSoundsApi and sound:IsA("AudioPlayer") then
-		sound:Stop()
+		sound:Play()
 	else
-		(sound :: Sound).Playing = false
+		(sound :: Sound).Playing = true
 	end
 end
 
@@ -204,10 +195,10 @@ local function initializeSoundSystem(instances: { [string]: Instance })
 			local sound = Instance.new("AudioPlayer")
 			local audioPlayerWire: Wire = Instance.new("Wire")
 			sound.Name = name
-			audioPlayerWire.Name = name .. "Wire"
+			audioPlayerWire.Name = name .. "Wire" and "Sound"
 			-- set default values
 			sound.Archivable = false
-			sound.Volume = 0.65
+			sound.Volume = 10.0
 			for propName, propValue: any in pairs(props) do
 				(sound :: any)[propName] = propValue
 			end
@@ -226,7 +217,7 @@ local function initializeSoundSystem(instances: { [string]: Instance })
 			sound.Archivable = false
 			sound.RollOffMinDistance = 5
 			sound.RollOffMaxDistance = 150
-			sound.Volume = 0.65
+			sound.Volume = 5.55
 			for propName, propValue: any in pairs(props) do
 				(sound :: any)[propName] = propValue
 			end
